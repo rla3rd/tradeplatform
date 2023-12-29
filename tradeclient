@@ -1,0 +1,3 @@
+#!/bin/sh
+~/quickfix/examples/tradeclient/tradeclient ~/sessions.cfg
+

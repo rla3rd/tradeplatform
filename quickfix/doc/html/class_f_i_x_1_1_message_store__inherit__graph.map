@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_file_store.html 6,93 92,117
+rect $class_f_i_x_1_1_memory_store.html 116,93 228,117
+rect $class_f_i_x_1_1_session_state.html 252,93 364,117

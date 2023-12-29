@@ -1,0 +1,164 @@
+Public Class frmMessages
+    Inherits System.Windows.Forms.Form
+
+#Region " Windows Form Designer generated code "
+
+    Public Sub New()
+        MyBase.New()
+
+        'This call is required by the Windows Form Designer.
+        InitializeComponent()
+
+        'Add any initialization after the InitializeComponent() call
+
+    End Sub
+
+    'Form overrides dispose to clean up the component list.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents lstMessages As System.Windows.Forms.ListBox
+
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(frmMessages))
+        Me.lstMessages = New System.Windows.Forms.ListBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'lstMessages
+        '
+        Me.lstMessages.Location = New System.Drawing.Point(10, 68)
+        Me.lstMessages.Name = "lstMessages"
+        Me.lstMessages.Size = New System.Drawing.Size(410, 368)
+        Me.lstMessages.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(17, 16)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(110, 46)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Open Msg Table"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(177, 18)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(101, 42)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Clear List"
+        '
+        'frmMessages
+        '
+        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+        Me.ClientSize = New System.Drawing.Size(430, 444)
+        Me.Controls.AddRange(New System.Windows.Forms.Control() {Me.Button2, Me.Button1, Me.lstMessages})
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "frmMessages"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Message Table"
+        Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+
+
+    Private WithEvents RediCache As New RediLib.CacheControl()
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim vTable As Object
+        Dim vWhere As Object
+        Dim vErr As Object
+
+        RediCache.UserID = "u40000"
+        RediCache.Password = "demo12"
+        vTable = "Message"
+        vWhere = "true"
+
+        Call RediCache.Submit(vTable, vWhere, vErr)
+    End Sub
+
+    Private Sub RediCacheEvent(ByVal Action As Integer, ByVal Row As Integer) Handles RediCache.CacheEvent
+        Dim vData As Object
+        Dim MyErr As Object
+        Dim MyString As String
+        Dim i As Integer
+
+        If Action = 1 Then
+            For i = 0 To Row - 1
+                MyString = Action & " " & i & "-"
+                Call RediCache.GetCell(i, "Status", vData, MyErr)
+                MyString = MyString & vData & " "
+                vData = Nothing
+                MyErr = Nothing
+                Call RediCache.GetCell(i, "UserId", vData, MyErr)
+                MyString = MyString & vData & " "
+                vData = Nothing
+                MyErr = Nothing
+                Call RediCache.GetCell(i, "OrderSeq", vData, MyErr)
+                MyString = MyString & vData & " "
+                vData = Nothing
+                MyErr = Nothing
+                Call RediCache.GetCell(i, "RefNum", vData, MyErr)
+                MyString = MyString & vData & " "
+                vData = Nothing
+                MyErr = Nothing
+                Call RediCache.GetCell(i, "Side", vData, MyErr)
+                MyString = MyString & vData & " "
+                vData = Nothing
+                MyErr = Nothing
+                lstMessages.Items.Add(MyString)
+                MyString = ""
+            Next
+        Else
+            i = Row
+            MyString = Action & " " & i & "-"
+            Call RediCache.GetCell(i, "Status", vData, MyErr)
+            MyString = MyString & vData & " "
+            vData = Nothing
+            MyErr = Nothing
+            Call RediCache.GetCell(i, "UserId", vData, MyErr)
+            MyString = MyString & vData & " "
+            vData = Nothing
+            MyErr = Nothing
+            Call RediCache.GetCell(i, "OrderSeq", vData, MyErr)
+            MyString = MyString & vData & " "
+            vData = Nothing
+            MyErr = Nothing
+            Call RediCache.GetCell(i, "RefNum", vData, MyErr)
+            MyString = MyString & vData & " "
+            vData = Nothing
+            MyErr = Nothing
+            Call RediCache.GetCell(i, "Side", vData, MyErr)
+            MyString = MyString & vData & " "
+            vData = Nothing
+            MyErr = Nothing
+            lstMessages.Items.Add(MyString)
+            MyString = ""
+        End If
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        lstMessages.Items.Clear()
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class

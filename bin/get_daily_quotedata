@@ -1,0 +1,39 @@
+#!/usr/bin/python
+import urllib
+import os, sys
+import datetime
+import smtplib
+import traceback
+import mail
+
+m = mail.Mailer()
+
+try: 
+	if len(sys.argv) == 2:
+		today = sys.argv[1]
+	else:
+		today = datetime.datetime.today().strftime( '%Y%m%d' )
+	http = 'http://www.xxxx.com/feeds/xxxx/'
+	file = '%s-quotedata.csv' % ( today )
+	targetdir = '/home/tradeplatform/downloads/'
+	targetfile = 'quotedata.csv'
+	target = targetdir + targetfile
+	url = http + file
+	try:
+		os.remove(target)
+	except OSError:
+		pass
+	remote = urllib.urlretrieve( url , target )
+	print 'retreiving %s ' % ( file )
+	quotefile = open(target)
+	line = quotefile.readline()
+	if line == '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n':
+		raise Exception('FileError')
+	quotefile.close()
+	cmd = 'psql -h dbdev -U tradeplatform tradeplatform -f /home/tradeplatform/bin/copy_quotedata.sql'
+	os.system( cmd )
+except:
+        error = sys.exc_info()[0]
+        details = traceback.format_exc()
+        m.mail('Tradeplatform: Quotedata Import Failed', '%s, %s' % ( error, details) )
+        sys.exit(0) 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/spin_button"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="152"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:06.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="22c40edbaa6741ec8b60702a7375e084"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:06.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:06.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="20fcb942da567ffa00b63b435c2e6122"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:06.000000Z"/>
+<entry
+   committed-rev="53"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:06.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="bdd41d4e42e800147251388cfaa8245b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:06.000000Z"/>
+<entry
+   committed-rev="162"
+   name="spin_button.py"
+   text-time="2007-04-11T23:40:06.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="70dedcecf13bd791cd8da06a07eaf049"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:06.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:06.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="02c32f7dc03a938724f9e777cb0d3dd0"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:06.000000Z"/>
+</wc-entries>

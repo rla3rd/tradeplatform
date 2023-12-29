@@ -1,0 +1,5 @@
+base referer
+rect $struct_f_i_x_1_1_date_time.html 19,55 107,78
+rect $class_f_i_x_1_1_utc_date.html 176,7 256,31
+rect $class_f_i_x_1_1_utc_time_only.html 161,55 270,78
+rect $class_f_i_x_1_1_utc_time_stamp.html 156,102 276,126

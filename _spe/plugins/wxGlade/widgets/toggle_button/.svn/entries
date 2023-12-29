@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/toggle_button"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="152"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:10.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="a933b40f6ab0d6fa81606c8ab0e87e48"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:10.000000Z"/>
+<entry
+   committed-rev="162"
+   name="toggle_button.py"
+   text-time="2007-04-11T23:40:10.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="615813d73cfe4032cd029812393f25de"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:10.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:10.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="edd1e2f7b1c5b8f24de1abd29175d6e9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:10.000000Z"/>
+<entry
+   committed-rev="53"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:10.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="e75cf0f7ae1598d23d92257d2690e986"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:10.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:10.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="d4f75dda78dc89e579e24e73f15d11da"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:10.000000Z"/>
+</wc-entries>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="379"
+   name=""
+   committed-date="2007-01-13T23:38:33.395587Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/pysqlite2/test"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="239"
+   name="transactions.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-03-30T12:01:59.830786Z"
+   checksum="9457d98afa7e3efa335934ee7f62ebc2"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="274"
+   name="__init__.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-06-05T01:04:33.328429Z"
+   checksum="a96d0780a0f13fa7a25d11d4913f12fc"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="230"
+   name="dbapi.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-02-10T17:01:26.881361Z"
+   checksum="992f6911b4e747ec69a2db1b9ea52b5d"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="379"
+   name="regression.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2007-01-13T23:38:33.395587Z"
+   checksum="e1c1b9c560885b1d372688a0050f0304"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="288"
+   name="hooks.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-06-20T21:10:43.591664Z"
+   checksum="eb3a70861ab97e4c4089022b722350cb"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   committed-rev="378"
+   name="types.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2007-01-13T23:02:51.884739Z"
+   checksum="0d692792838f8bb0e2411a9fe1fdc543"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   committed-rev="300"
+   name="factory.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-12-01T22:46:56.195841Z"
+   checksum="40762c45484e2ecdb58d66f53b081c5d"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   committed-rev="288"
+   name="userfunctions.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-06-20T21:10:43.591664Z"
+   checksum="8b43743e39fa2a64be81456465da0c59"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+</wc-entries>

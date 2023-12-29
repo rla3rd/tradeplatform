@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-07-29T18:15:44.226652Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/kiki/docs"
+   last-author="poptop"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="1"
+   name="re.html"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="3c12ddb5d84bd01e0e9e0fb5225c9437"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="index.html"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="12f3953c3e963b975ad7ab303775267b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="about.html"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="fe467e532134348b38e0a7995936d69b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+</wc-entries>

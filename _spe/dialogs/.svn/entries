@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="225"
+   name=""
+   committed-date="2007-03-16T23:07:04.286589Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/dialogs"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="209"
+   name="runWinPdbDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-14T18:41:12.091993Z"
+   checksum="8254eaa6da4fd191457826ac245b0184"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="blancoDialog.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="135d0ce93cbc9dc1c3dc2e75f6b8e3d1"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="192"
+   name="runTerminalDialog.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="61efca4ce968caf461aac3850d2c6716"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="96"
+   name="runWinPdbDialog_exit.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-12-12T19:42:19.446665Z"
+   checksum="30ffb28ae56c08a435c9203284993378"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="0b06ac1807db78c7b836c2ed5bd59411"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="225"
+   name="winpdb.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-16T23:07:04.286589Z"
+   checksum="30ce873de0885316c18576c086232be4"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="192"
+   name="runDialog.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="f4949c746906d1b8782e991329a48f27"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="225"
+   name="winpdbDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-16T23:07:04.286589Z"
+   checksum="23d53cd4c62c8c90db134cdb32d1973b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="192"
+   name="runWinPdbDialog.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="eed6f24caaa70495e8125c66758da93a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="speDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="6da5ed5717d1ee7a3ffe226d61a23b3b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="helpDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="f0e522e75d13743443087edc505b028d"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="192"
+   name="preferences.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="760b56d69b0cb3bd1aaec6e7ec458f61"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="192"
+   name="runTerminalDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="60227bcdd6fde57f3908745dadaea2ef"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="142"
+   name="separatorDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2006-01-18T23:27:33.473681Z"
+   checksum="ec7781848eb2f17c68ce74f6428a84ba"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="211"
+   name="preferencesDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-14T20:40:37.442414Z"
+   checksum="a2d2d3cb0a167208d9f4a9b632ffdafd"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:16.000000Z"/>
+<entry
+   committed-rev="150"
+   name="stcStyleEditor.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2006-01-26T06:02:46.093858Z"
+   checksum="3e4732b856a7d46ce5ed4457d6912468"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="192"
+   name="runDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2007-03-07T18:31:14.001281Z"
+   checksum="b0c06d73891f30b123fdd24c3c81f4ed"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="152"
+   name="styleEditor.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="57b4c620b8835daa8f7c977b22b0d158"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="1"
+   name="shortcuts.txt"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="1bfaaf3c83d01c507da9b16a6cfc318e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="1"
+   name="blancoFrame.wxg"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="5e090b38760b1e5b6b3d6320b4d2b8ac"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="1"
+   name="helpShortcutsDialog.py"
+   text-time="2007-04-11T23:40:17.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="dcc40f5541b56c605316d4250cb7dc44"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+</wc-entries>

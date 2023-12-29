@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="163"
+   name=""
+   committed-date="2007-02-28T11:40:04.283781Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/po"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="163"
+   name="en.po"
+   text-time="2007-04-11T23:40:00.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="a00fb6a986f88de0219b450cc40fd9ea"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="163"
+   name="fr.po"
+   text-time="2007-04-11T23:40:00.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="8b7acb4ca0aef87bff3bc257af640851"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="163"
+   name="de.po"
+   text-time="2007-04-11T23:40:00.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="8b7acb4ca0aef87bff3bc257af640851"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="163"
+   name="messages.pot"
+   text-time="2007-04-11T23:40:00.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="8b7acb4ca0aef87bff3bc257af640851"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="163"
+   name="it.po"
+   text-time="2007-04-11T23:40:00.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="b06543bd553b27777b74ae23aac5f84a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+</wc-entries>

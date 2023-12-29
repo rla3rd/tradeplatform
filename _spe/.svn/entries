@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="236"
+   name=""
+   committed-date="2007-03-22T16:29:02.494549Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   name="sm"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="MenuEditor.wxg"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="471bad1e1d2838f9724c06319cc09226"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="231"
+   name="Parent.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T22:26:41.299885Z"
+   checksum="730926e676488d88777b895f2bc6eb8b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="230"
+   name="wxgMenu.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T22:12:50.442299Z"
+   checksum="9efcb6d30e5dc47334e24e089c9983c8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="81"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-11-25T15:52:26.558898Z"
+   checksum="fc4bea6c3cc3c3ea77b6443a6cc26343"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="31"
+   name="spe"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-08T02:32:16.512893Z"
+   checksum="e5c86f639426465f6b83827c4ff51fb7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   name="skins"
+   kind="dir"/>
+<entry
+   committed-rev="71"
+   name="workspace.reg.txt"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-11-23T12:08:08.683910Z"
+   checksum="10d938dc8e1fbb5ffde09cd1480d237c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:47.000000Z"/>
+<entry
+   committed-rev="18"
+   name="spe_changes.txt"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-05T05:47:52.262170Z"
+   checksum="b3dcf3dfa9ff736973c0ca3052125d30"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:47.000000Z"/>
+<entry
+   name="shortcuts"
+   kind="dir"/>
+<entry
+   committed-rev="46"
+   name="wxgChild.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-10-30T01:05:26.075023Z"
+   checksum="294284c8fa149dcdd21daee4ee94f580"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:47.000000Z"/>
+<entry
+   committed-rev="201"
+   name="defaults.cfg"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-13T13:12:52.737620Z"
+   checksum="7874cc5b6e4822a368126f576ce94241"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="18"
+   name="SPE.pyw"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-05T05:47:52.262170Z"
+   checksum="605d8b09ac4f66712475b472affc81aa"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="view"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="smdi.dwg"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="48579806dc0996fe666e974347551eea"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="150"
+   name="SPE_notes.txt"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2006-01-26T06:02:46.093858Z"
+   checksum="48afbf71088d2bfdd0debfee62cde2a8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="150"
+   name="Parent_notes.txt"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2006-01-26T06:02:46.093858Z"
+   checksum="50c464fe73fd0875ded8ab4bdc6a097a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="help.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="303913af015b0335eaa85f2559ea1374"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="plugins"
+   kind="dir"/>
+<entry
+   committed-rev="227"
+   name="info.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T20:58:05.135252Z"
+   checksum="b08415591e1b86f8224baef6acb53174"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   name="dialogs"
+   kind="dir"/>
+<entry
+   committed-rev="76"
+   name="SPE_DEBUG.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-11-24T19:50:41.182434Z"
+   checksum="86d8bb9dfe07bb81824457f474a624cd"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="1"
+   name="smdi.wmf"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="6e397fadc035fdf144acb63dbf106a60"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   committed-rev="46"
+   name="Child.wxg"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-10-30T01:05:26.075023Z"
+   checksum="177b4a9b14c443cda4bc8ca4b838aad3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:17.000000Z"/>
+<entry
+   name="tabs"
+   kind="dir"/>
+<entry
+   committed-rev="82"
+   name="speMac.blend"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-11-25T20:03:01.403025Z"
+   checksum="62f84f3ff1c14c05f085d6eaaaecae3e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:18.000000Z"/>
+<entry
+   committed-rev="231"
+   name="Menu.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T22:26:41.299885Z"
+   checksum="02d397276ca1b0d44f0317388e530318"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:18.000000Z"/>
+<entry
+   committed-rev="18"
+   name="spe.blend.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-05T05:47:52.262170Z"
+   checksum="74f6c19f906fb3d35674ccd6830a6151"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:18.000000Z"/>
+<entry
+   committed-rev="230"
+   name="Menu.wxg"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T22:12:50.442299Z"
+   checksum="eb36d9bf81939a35c8712bda939d07a8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:18.000000Z"/>
+<entry
+   name="sidebar"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="spe_blender.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="5f101eabf45eecd97ce05c76d9502585"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:18.000000Z"/>
+<entry
+   committed-rev="12"
+   name="spe.blend"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-04T22:56:29.945341Z"
+   checksum="5f9d03e42714a923e269017b324a52dc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   committed-rev="228"
+   name="Child.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T21:44:15.523799Z"
+   checksum="76a685f45609c0bade7b29a44c3c4942"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+<entry
+   committed-rev="232"
+   name="SPE.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2007-03-17T23:31:54.530726Z"
+   checksum="1408ecc4f729910f526ba8d4c73a4276"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+</wc-entries>

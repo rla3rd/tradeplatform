@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="53"
+   name=""
+   committed-date="2005-10-30T02:30:14.182667Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/icons/gtk"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="53"
+   name="paste.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="e59a4dc73944a49e043c263bcf2bce14"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="remove.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="9c4650080187bc64b76230fa612061b4"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="refresh.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="d4acb71e1d00ff6c864d593678da75a8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="save.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="9f05e1cbc0efe8081e92d07a15e8e04a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="prefs.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="4e43882a9af9d46af6f5c4a262fb7c32"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="open.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="0a0150a6e5974341168ef819ffaa3a2d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="save_as.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="3fccc5a7f74c1993a5ddb0b4dd679ebc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="tutorial.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="a1d03cd4f0c5055a0836b0183ce3965e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="exit.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b8dd7a67d33e5997cf6652b0501195fc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="new.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="34b45b846df8fa6387820bd2373d5c0b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="about.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="7887d9169010c14a9f89e3fc7c601039"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="copy.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="48306449a68148affbf4494d05a8f485"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="generate.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="27357bd75ffd7427984006b6e1c76ba5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="cut.xpm"
+   text-time="2007-04-11T23:40:12.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="2c94c9f37c5554c4e91bc301c29d41f5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+</wc-entries>

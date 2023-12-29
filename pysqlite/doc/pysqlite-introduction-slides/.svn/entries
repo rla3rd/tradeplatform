@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="119"
+   name=""
+   committed-date="2005-04-28T22:28:22.817756Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/doc/pysqlite-introduction-slides"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="119"
+   name="pysqlite-introduction.pdf"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-04-28T22:28:22.817756Z"
+   checksum="6147952a62f2d009b717632b96ae6d19"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="119"
+   name="pysqlite-introduction.odp"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-04-28T22:28:22.817756Z"
+   checksum="ce7b7bfea80033551bda1d430b968f20"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/toolbar"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="152"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="549fff98ecc76f175fac0ab17f117177"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+<entry
+   committed-rev="53"
+   name="tool.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="36ac87804cf84eb040d89ec21619a347"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="edf3d16c1de147f393404f650e85337b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+<entry
+   committed-rev="162"
+   name="toolbar.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="2c0bc10050da15c010a3be758c4cefef"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+<entry
+   committed-rev="162"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="0a2df84b1f1a83b2c82c1080fbfd49b3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:09.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="7fdb2d47390055fc4aa535d6648fa6ab"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:09.000000Z"/>
+</wc-entries>

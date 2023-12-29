@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="152"
+   name=""
+   committed-date="2006-10-19T21:17:20.209609Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/skins"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   name="default"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="install.jpg"
+   text-time="2007-04-11T23:39:47.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="cef5a64cc8e0b66de37b2090967fab2b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="__init__.py"
+   text-time="2007-04-11T23:39:47.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:47.000000Z"/>
+</wc-entries>

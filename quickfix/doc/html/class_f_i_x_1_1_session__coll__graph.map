@@ -1,0 +1,10 @@
+base referer
+rect $class_f_i_x_1_1_session_state.html 216,84 328,108
+rect $class_f_i_x_1_1_mutex.html 19,52 88,76
+rect $class_f_i_x_1_1_application.html 223,143 321,167
+rect $class_f_i_x_1_1_session_i_d.html 225,205 319,229
+rect $class_f_i_x_1_1_responder.html 224,268 320,292
+rect $class_f_i_x_1_1_message_store_factory.html 191,330 353,354
+rect $class_f_i_x_1_1_data_dictionary.html 213,393 330,417
+rect $class_f_i_x_1_1_session_time.html 217,456 326,480
+rect $class_f_i_x_1_1_log_factory.html 223,518 321,542

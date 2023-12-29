@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/tradeplatform/jython/jython /home/tradeplatform/OTFeedJython/OTFeed/src/otfeed/py.py

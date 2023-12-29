@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="153"
+   name=""
+   committed-date="2005-09-11T15:27:21.768111Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/scripts"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="77"
+   name="test-pysqlite"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-03-08T00:53:58.896746Z"
+   checksum="7cdbab6dc40e6adf2bea7b3640dd210d"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="153"
+   name="stress.py"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-09-11T15:27:21.768111Z"
+   checksum="9df972e12179237e7a3cabb70b7f52bf"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+</wc-entries>

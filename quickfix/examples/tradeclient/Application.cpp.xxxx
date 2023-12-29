@@ -1,0 +1,1271 @@
+/* -*- C++ -*- */
+
+/****************************************************************************
+** Copyright (c) quickfixengine.org  All rights reserved.
+**
+** This file is part of the QuickFIX FIX Engine
+**
+** This file may be distributed under the terms of the quickfixengine.org
+** license as defined by quickfixengine.org and appearing in the file
+** LICENSE included in the packaging of this file.
+**
+** This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+** WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+**
+** See http://www.quickfixengine.org/LICENSE for licensing information.
+**
+** Contact ask@quickfixengine.org if any conditions of this licensing are
+** not clear to you.
+**
+****************************************************************************/
+
+#ifdef _MSC_VER
+#pragma warning( disable : 4503 4355 4786 )
+#else
+#include "config.h"
+#endif
+
+#include "Application.h"
+#include "quickfix/MessageCracker.h"
+#include "quickfix/fix40/ExecutionReport.h"
+#include "quickfix/fix41/ExecutionReport.h"
+#include "quickfix/fix42/ExecutionReport.h"
+#include "quickfix/fix43/ExecutionReport.h"
+#include "quickfix/fix44/ExecutionReport.h"
+#include "quickfix/fix40/OrderCancelReject.h"
+#include "quickfix/fix41/OrderCancelReject.h"
+#include "quickfix/fix42/OrderCancelReject.h"
+#include "quickfix/fix43/OrderCancelReject.h"
+#include "quickfix/fix44/OrderCancelReject.h"
+#include "quickfix/Session.h"
+#include <iostream>
+#include <libpq-fe.h>
+#include <string.h>
+
+void Application::onLogon( const FIX::SessionID& sessionID )
+{
+  std::cout << std::endl << "Logon - " << sessionID << std::endl;
+}
+
+void Application::onLogout( const FIX::SessionID& sessionID )
+{
+  std::cout << std::endl << "Logout - " << sessionID << std::endl;
+}
+
+void Application::fromApp( const FIX::Message& message, const FIX::SessionID& sessionID )
+throw( FIX::FieldNotFound, FIX::IncorrectDataFormat, FIX::IncorrectTagValue, FIX::UnsupportedMessageType )
+{
+  crack( message, sessionID );
+  std::cout << std::endl << "IN: " << message << std::endl;
+}
+
+void Application::toApp( FIX::Message& message, const FIX::SessionID& sessionID )
+throw( FIX::DoNotSend )
+{
+  try
+  {
+    FIX::PossDupFlag possDupFlag;
+    message.getHeader().getField( possDupFlag );
+    if ( possDupFlag ) throw FIX::DoNotSend();
+  }
+  catch ( FIX::FieldNotFound& ) {}
+
+  std::cout << std::endl
+  << "OUT: " << message << std::endl;
+}
+
+void Application::onMessage
+( const FIX40::ExecutionReport& message, const FIX::SessionID& sessionID )
+{
+  FIX::OrderID OrderID;
+  FIX::ExecID ExecID;
+  FIX::ExecTransType ExecTransType;
+  FIX::OrdStatus OrdStatus;
+  FIX::Symbol Symbol;
+  FIX::SymbolSfx SymbolSfx;
+  FIX::Side Side;
+  FIX::OrderQty OrderQty;
+  FIX::LastShares LastShares;
+  FIX::LastPx LastPx;
+  FIX::CumQty CumQty;
+  FIX::AvgPx AvgPx ;
+
+  message.get( OrderID );
+  message.get( ExecID );
+  message.get( ExecTransType );
+  message.get( OrdStatus );
+  message.get( Symbol );
+  message.get( SymbolSfx );
+  message.get( Side );
+  message.get( OrderQty );
+  message.get( LastShares );
+  message.get( LastPx );
+  message.get( CumQty );
+  message.get( AvgPx );
+}
+void Application::onMessage
+( const FIX40::OrderCancelReject& message, const FIX::SessionID& sessionID )
+{
+  FIX::OrderID OrderID;
+  FIX::ClOrdID ClOrdID;
+  FIX::Text Text;
+
+  message.get( OrderID );
+  message.get( ClOrdID );
+  message.get( Text );
+}
+void Application::onMessage
+( const FIX41::ExecutionReport& message, const FIX::SessionID& sessionID )
+{
+  FIX::OrderID OrderID;
+  FIX::ExecID ExecID;
+  FIX::ExecTransType ExecTransType;
+  FIX::ExecType ExecType;
+  FIX::OrdStatus OrdStatus;
+  FIX::Symbol Symbol;
+  FIX::SymbolSfx SymbolSfx;
+  FIX::Side Side;
+  FIX::OrderQty OrderQty;
+  FIX::LastShares LastShares;
+  FIX::LastPx LastPx;
+  FIX::LeavesQty LeavesQty;
+  FIX::CumQty CumQty;
+  FIX::AvgPx AvgPx;
+
+  message.get( OrderID );
+  message.get( ExecID );
+  message.get( ExecTransType );
+  message.get( ExecType );
+  message.get( OrdStatus );
+  message.get( Symbol );
+  message.get( SymbolSfx );
+  message.get( Side );
+  message.get( OrderQty );
+  message.get( LastShares );
+  message.get( LastPx );
+  message.get( LeavesQty );
+  message.get( CumQty );
+  message.get( AvgPx );
+}
+void Application::onMessage
+( const FIX41::OrderCancelReject& message, const FIX::SessionID& sessionID )
+{
+  FIX::OrderID OrderID;
+  FIX::ClOrdID ClOrdID;
+  FIX::OrigClOrdID OrigClOrdID;
+  FIX::OrdStatus OrdStatus;
+  FIX::Text Text;
+
+  message.get( OrderID );
+  message.get( ClOrdID );
+  message.get( OrigClOrdID );
+  message.get( OrdStatus );
+  message.get( Text );
+}
+void Application::onMessage
+( const FIX42::ExecutionReport& message, const FIX::SessionID& sessionID )
+{
+  crack( message, sessionID );
+  std::cout << std::endl << "IN: " << message << std::endl;
+
+  FIX::ClOrdID ClOrdID;
+  FIX::OrderID OrderID;
+  FIX::ExecID ExecID;
+  FIX::ExecTransType ExecTransType;
+  FIX::ExecType ExecType;
+  FIX::OrdStatus OrdStatus;
+  FIX::Symbol Symbol;
+  FIX::SymbolSfx SymbolSfx;
+  FIX::Side Side;
+  FIX::LeavesQty LeavesQty;
+  FIX::CumQty CumQty;
+  FIX::AvgPx AvgPx;
+
+  message.get( ClOrdID );
+  message.get( OrderID );
+  message.get( ExecID );
+  message.get( ExecTransType );
+  message.get( ExecType );
+  message.get( OrdStatus );
+  message.get( Symbol );
+  message.get( SymbolSfx );
+  message.get( Side );
+  message.get( LeavesQty );
+  message.get( CumQty );
+  message.get( AvgPx );
+  std::cout << "\nIN ClOrdID: " << ClOrdID << "\n";
+}
+void Application::onMessage
+( const FIX42::OrderCancelReject& message, const FIX::SessionID& sessionID )
+{
+  crack( message, sessionID );
+  std::cout << std::endl << "IN: " << message << std::endl;
+
+  FIX::OrderID OrderID;
+  FIX::ClOrdID ClOrdID;
+  FIX::OrigClOrdID OrigClOrdID;
+  FIX::OrdStatus OrdStatus;
+  FIX::CxlRejResponseTo CxlRejResponseTo;
+  FIX::Text Text;
+
+  message.get( OrderID );
+  message.get( ClOrdID );
+  message.get( OrigClOrdID );
+  message.get( OrdStatus );
+  message.get( CxlRejResponseTo );
+  message.get( Text );
+}
+void Application::onMessage
+( const FIX43::ExecutionReport& message, const FIX::SessionID& sessionID)
+{
+  FIX::ClOrdID ClOrdID;
+  FIX::OrderID OrderID;
+  FIX::ExecID ExecID;
+  FIX::ExecType ExecType;
+  FIX::OrdStatus OrdStatus;
+  FIX::Symbol Symbol;
+  FIX::Symbol SymbolSfx;
+  FIX::Side Side;
+  FIX::OrderQty OrderQty;
+  FIX::OrdType OrdType;
+  FIX::Price Price;
+  FIX::LastPx LastPx;
+  FIX::LeavesQty LeavesQty;
+  FIX::CumQty CumQty;
+  FIX::AvgPx AvgPx;
+  FIX::Text Text;
+
+  message.get( ClOrdID );
+  message.get( OrderID );
+  message.get( ExecID );
+  message.get( ExecType );
+  message.get( OrdStatus );
+  message.get( Symbol );
+  message.get( SymbolSfx );
+  message.get( Side );
+  message.get( OrderQty );
+  message.get( OrdType );
+  message.get( Price );
+  message.get( LastPx );
+  message.get( LeavesQty );
+  message.get( CumQty );
+  message.get( AvgPx );
+  message.get( Text );
+}
+void Application::onMessage
+( const FIX43::OrderCancelReject& message, const FIX::SessionID& sessionID)
+{
+  FIX::OrderID OrderID;
+  FIX::ClOrdID ClOrdID;
+  FIX::OrigClOrdID OrigClOrdID;
+  FIX::OrdStatus OrdStatus;
+  FIX::CxlRejResponseTo CxlRejResponseTo;
+  FIX::Text Text;
+
+  message.get( OrderID );
+  message.get( ClOrdID );
+  message.get( OrigClOrdID );
+  message.get( OrdStatus );
+  message.get( CxlRejResponseTo );
+  message.get( Text );
+}
+void Application::onMessage
+( const FIX44::ExecutionReport& message, const FIX::SessionID& sessionID)
+{
+  FIX::OrderID OrderID;
+  FIX::ExecID ExecID;
+  FIX::ExecType ExecType;
+  FIX::OrdStatus OrdStatus;
+  FIX::Symbol Symbol;
+  FIX::SymbolSfx SymbolSfx;
+  FIX::Side Side;
+  FIX::LeavesQty LeavesQty;
+  FIX::CumQty CumQty;
+  FIX::AvgPx AvgPx;
+
+  message.get( OrderID );
+  message.get( ExecID );
+  message.get( ExecType );
+  message.get( OrdStatus );
+  message.get( Symbol );
+  message.get( SymbolSfx );
+  message.get( Side );
+  message.get( LeavesQty );
+  message.get( CumQty );
+  message.get( AvgPx );
+}
+void Application::onMessage
+( const FIX44::OrderCancelReject& message, const FIX::SessionID& sessionID)
+{
+  FIX::OrderID OrderID;
+  FIX::ClOrdID ClOrdID;
+  FIX::OrigClOrdID OrigClOrdID;
+  FIX::OrdStatus OrdStatus;
+  FIX::CxlRejResponseTo CxlRejResponseTo;
+  FIX::Text Text;
+
+  message.get( OrderID );
+  message.get( ClOrdID );
+  message.get( OrigClOrdID );
+  message.get( OrdStatus );
+  message.get( CxlRejResponseTo );
+  message.get( Text );
+}
+
+void Application::run()
+{
+  while ( true )
+  {
+    try
+    {
+      char action = queryAction();
+
+      if ( action == '1' )
+        queryEnterOrder("REDI", "2007-01-19-10", "ZVZZT", "DAY", "BUY", 100, "LMT", 1, 0);
+      else if ( action == '2' )
+        queryCancelOrder("REDI", "2007-01-19-1", "2007-01-19-2", "ZVZZT", "BUY", 100);
+      else if ( action == '3' )
+        queryReplaceOrder("REDI", "2007-01-19-0", "2007-01-19-1", "ZVZZT", "BUY", 100, "LMT", 2, 0);
+      else if ( action == '4' )
+        queryMarketDataRequest("REDI", "ZVZZT");
+      else if ( action == '5' )
+        break;
+    }
+    catch ( std::exception & e )
+    {
+      std::cout << "Message Not Sent: " << e.what();
+    }
+  }
+}
+
+void Application::queryEnterOrder( std::string MMID, std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+
+  FIX::Message order;
+  ConnectInfo info;
+  info = queryBroker(MMID);
+
+  //std::cout << "\nFix Version Selected.\n" << info.Version;
+
+  std::cout << "\nNewOrderSingle\n";
+
+  switch ( info.Version ) {
+  case 40:
+    queryNewOrderSingle40( info.SenderCompID, info.TargetCompID, ClOrdID, Symbol, TIF, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 41:
+    queryNewOrderSingle41( info.SenderCompID, info.TargetCompID, ClOrdID, Symbol, TIF, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 42:
+    queryNewOrderSingle42( info.SenderCompID, info.TargetCompID, ClOrdID, Symbol, TIF, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 43:
+    queryNewOrderSingle43( info.SenderCompID, info.TargetCompID, ClOrdID, Symbol, TIF, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 44:
+    queryNewOrderSingle44( info.SenderCompID, info.TargetCompID, ClOrdID, Symbol, TIF, Side, Shares, OrdType, Price, StopPx );
+  default:
+    std::cerr << "No test for version " << info.Version << std::endl;
+    break;
+  }
+}
+
+void Application::queryCancelOrder( std::string MMID, std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  std::cout << "\nOrderCancelRequest\n";
+  FIX::Message cancel;
+  ConnectInfo info;
+  info = queryBroker(MMID);
+
+  switch ( info.Version ) {
+  case 40:
+    queryOrderCancelRequest40( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares );
+    break;
+  case 41:
+    queryOrderCancelRequest41( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares );
+    break;
+  case 42:
+    queryOrderCancelRequest42( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares );
+    break;
+  case 43:
+    queryOrderCancelRequest43( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares );
+    break;
+  case 44:
+    queryOrderCancelRequest44( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares );
+    break;
+  default:
+    std::cerr << "No test for version " << info.Version << std::endl;
+    break;
+  }
+}
+
+void Application::queryReplaceOrder( std::string MMID, std::string OrigClOrdID, std::string ClOrdID, 
+     std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  std::cout << "\nCancelReplaceRequest\n";
+  FIX::Message replace;
+  ConnectInfo info;
+  info = queryBroker(MMID);
+
+  switch ( info.Version ) {
+  case 40:
+    queryCancelReplaceRequest40( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 41:
+    queryCancelReplaceRequest41( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 42:
+    queryCancelReplaceRequest42( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 43:
+    queryCancelReplaceRequest43( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares, OrdType, Price, StopPx );
+    break;
+  case 44:
+    queryCancelReplaceRequest44( info.SenderCompID, info.TargetCompID, OrigClOrdID, ClOrdID, Symbol, Side, Shares, OrdType, Price, StopPx );
+    break;
+  default:
+    std::cerr << "No test for version " << info.Version << std::endl;
+    break;
+  }
+}
+
+void Application::queryMarketDataRequest( std::string MMID, std::string Symbol )
+{
+  std::cout << "\nMarketDataRequest\n";
+  FIX::Message md;
+  ConnectInfo info;
+  info = queryBroker(MMID);
+
+  switch (info.Version) {
+  case 43:
+    queryMarketDataRequest43( info.SenderCompID, info.TargetCompID, Symbol );
+    break;
+  case 44:
+    queryMarketDataRequest44( info.SenderCompID, info.TargetCompID, Symbol );
+    break;
+  default:
+    std::cerr << "No test for version " << info.Version << std::endl;
+    break;
+  }
+}
+
+void Application::queryNewOrderSingle40( std::string SenderCompID, std::string TargetCompID, 
+     std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  FIX::OrdType ordType;
+  char *p;
+  std::string SymbolSfx;
+
+  FIX40::NewOrderSingle newOrderSingle(
+    FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ), FIX::Symbol( Symbol ), querySide( Side ),
+    FIX::OrderQty( Shares ), queryOrdType( OrdType ) );
+
+  FIX::Header& header = newOrderSingle.getHeader();
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+    newOrderSingle.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+  }
+  newOrderSingle.set( queryTimeInForce( TIF ) );
+  if ( ordType == FIX::OrdType_LIMIT || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::Price( Price ) );
+  if ( ordType == FIX::OrdType_STOP || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::StopPx( StopPx ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( newOrderSingle );
+}
+
+void Application::queryNewOrderSingle41( std::string SenderCompID, std::string TargetCompID, 
+     std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  FIX::OrdType ordType;
+  char *p;
+  std::string SymbolSfx;
+
+  FIX41::NewOrderSingle newOrderSingle(
+    FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ), FIX::Symbol( Symbol ), querySide( Side ),
+    queryOrdType( OrdType ) );
+
+  FIX::Header& header = newOrderSingle.getHeader();
+
+   p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+    newOrderSingle.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+  }
+
+  newOrderSingle.set( FIX::OrderQty( Shares ) );
+  newOrderSingle.set( queryTimeInForce( TIF ) );
+  if ( ordType == FIX::OrdType_LIMIT || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::Price( Price ) );
+  if ( ordType == FIX::OrdType_STOP || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::StopPx( StopPx ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( newOrderSingle );
+}
+
+void  Application::queryNewOrderSingle42( std::string SenderCompID, std::string TargetCompID,
+      std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  FIX::OrdType ordType;
+  char *p;
+  std::string SymbolSfx;
+
+  FIX42::NewOrderSingle newOrderSingle(
+    FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ), FIX::Symbol( Symbol ), querySide( Side ),
+    FIX::TransactTime(), ordType = queryOrdType( OrdType ) );
+
+  FIX::Header& header = newOrderSingle.getHeader();
+
+   p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+    newOrderSingle.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+  }
+
+  newOrderSingle.set( FIX::OrderQty( Shares ) );
+  newOrderSingle.set( queryTimeInForce( TIF ) );
+  if ( ordType == FIX::OrdType_LIMIT || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::Price( Price ) );
+  if ( ordType == FIX::OrdType_STOP || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::StopPx( StopPx ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( newOrderSingle );
+}
+
+void Application::queryNewOrderSingle43( std::string SenderCompID, std::string TargetCompID,
+     std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  FIX::OrdType ordType;
+  char *p;
+  std::string SymbolSfx;
+
+  FIX43::NewOrderSingle newOrderSingle(
+    FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ), querySide( Side ),
+    FIX::TransactTime(), ordType = queryOrdType( OrdType ) );
+
+  FIX::Header& header = newOrderSingle.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+    newOrderSingle.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+  }
+
+  newOrderSingle.set( FIX::OrderQty( Shares ) );
+  newOrderSingle.set( queryTimeInForce( TIF ) );
+  if ( ordType == FIX::OrdType_LIMIT || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::Price( Price ) );
+  if ( ordType == FIX::OrdType_STOP || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::StopPx( StopPx ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( newOrderSingle );
+}
+
+void Application::queryNewOrderSingle44( std::string SenderCompID, std::string TargetCompID,
+     std::string ClOrdID, std::string Symbol, std::string TIF, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  FIX::OrdType ordType;
+  char *p;
+  std::string SymbolSfx;
+
+  FIX44::NewOrderSingle newOrderSingle(
+    FIX::ClOrdID( ClOrdID ), querySide( Side ),
+    FIX::TransactTime(), ordType = queryOrdType( OrdType ) );
+
+  FIX::Header& header = newOrderSingle.getHeader();
+
+  newOrderSingle.set( FIX::HandlInst('1') );
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+    newOrderSingle.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    newOrderSingle.set( FIX::Symbol( Symbol ) );
+  }
+
+  newOrderSingle.set( FIX::OrderQty( Shares ) );
+  newOrderSingle.set( queryTimeInForce( TIF ) );
+  if ( ordType == FIX::OrdType_LIMIT || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::Price( Price ) );
+  if ( ordType == FIX::OrdType_STOP || ordType == FIX::OrdType_STOP_LIMIT )
+    newOrderSingle.set( FIX::StopPx( StopPx ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( newOrderSingle );
+}
+
+void Application::queryOrderCancelRequest40( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX40::OrderCancelRequest orderCancelRequest(
+     FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::CxlType( 'F' ),
+    FIX::Symbol( Symbol ), querySide( Side ), FIX::OrderQty( Shares ) );
+
+  FIX::Header& header = orderCancelRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  {
+    *p = 0;
+    SymbolSfx = p + 1;
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+    orderCancelRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  orderCancelRequest.set( FIX::OrderQty( Shares ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( orderCancelRequest );
+}
+
+void Application::queryOrderCancelRequest41( std::string SenderCompID, std::string TargetCompID, 
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX41::OrderCancelRequest orderCancelRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::Symbol( Symbol ), querySide( Side ) );
+
+  FIX::Header& header = orderCancelRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+    orderCancelRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  orderCancelRequest.set( FIX::OrderQty( Shares ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( orderCancelRequest );
+}
+
+void Application::queryOrderCancelRequest42( std::string SenderCompID, std::string TargetCompID, 
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX42::OrderCancelRequest orderCancelRequest( FIX::OrigClOrdID( OrigClOrdID ),
+      FIX::ClOrdID( ClOrdID ), FIX::Symbol( Symbol ), querySide( Side ), FIX::TransactTime() );
+
+  FIX::Header& header = orderCancelRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+    orderCancelRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  orderCancelRequest.set( FIX::OrderQty( Shares ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( orderCancelRequest );
+}
+
+void Application::queryOrderCancelRequest43( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX43::OrderCancelRequest orderCancelRequest( FIX::OrigClOrdID( OrigClOrdID ),
+      FIX::ClOrdID( ClOrdID ), querySide( Side ), FIX::TransactTime() );
+
+  FIX::Header& header = orderCancelRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+    orderCancelRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  orderCancelRequest.set( FIX::OrderQty( Shares ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( orderCancelRequest );
+}
+
+void Application::queryOrderCancelRequest44( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX44::OrderCancelRequest orderCancelRequest( FIX::OrigClOrdID( OrigClOrdID ),
+      FIX::ClOrdID( ClOrdID ), querySide( Side ), FIX::TransactTime() );
+
+  FIX::Header& header = orderCancelRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+    orderCancelRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    orderCancelRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  orderCancelRequest.set( FIX::OrderQty( Shares ) );
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( orderCancelRequest );
+}
+
+void Application::queryCancelReplaceRequest40( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX40::OrderCancelReplaceRequest cancelReplaceRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ),
+    FIX::Symbol( Symbol ), querySide( Side ), FIX::OrderQty( Shares ), queryOrdType( OrdType ) );
+
+  FIX::Header& header = cancelReplaceRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+    cancelReplaceRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  if ( Price != 0 )
+  {
+    cancelReplaceRequest.set( FIX::Price( Price ) );
+  }
+  if ( Shares != 0 )
+  {
+    cancelReplaceRequest.set( FIX::OrderQty( Shares ) );
+  }
+  if ( StopPx != 0 )
+  {
+    cancelReplaceRequest.set( FIX::StopPx( StopPx ) );
+  }
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( cancelReplaceRequest );
+}
+
+void Application::queryCancelReplaceRequest41( std::string SenderCompID, std::string TargetCompID, 
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX41::OrderCancelReplaceRequest cancelReplaceRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ),
+    FIX::Symbol( Symbol ), querySide( Side ), queryOrdType( OrdType ) );
+
+  FIX::Header& header = cancelReplaceRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+    cancelReplaceRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  if ( Price != 0 )
+  {
+    cancelReplaceRequest.set( FIX::Price( Price ) );
+  }
+  if ( Shares != 0 )
+  {
+    cancelReplaceRequest.set( FIX::OrderQty( Shares ) );
+  }
+  if ( StopPx != 0 )
+  {
+    cancelReplaceRequest.set( FIX::StopPx( StopPx ) );
+  }
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( cancelReplaceRequest );
+}
+
+void Application::queryCancelReplaceRequest42( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX42::OrderCancelReplaceRequest cancelReplaceRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ),
+    FIX::Symbol( Symbol ), querySide( Side ), FIX::TransactTime(), queryOrdType( OrdType ) );
+
+  FIX::Header& header = cancelReplaceRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+    cancelReplaceRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  if ( Price != 0 )
+  {
+    cancelReplaceRequest.set( FIX::Price( Price ) );
+  }
+  if ( Shares != 0 )
+  {
+    cancelReplaceRequest.set( FIX::OrderQty( Shares ) );
+  }
+  if ( StopPx != 0 )
+  {
+    cancelReplaceRequest.set( FIX::StopPx( StopPx ) );
+  }
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( cancelReplaceRequest );
+}
+
+void Application::queryCancelReplaceRequest43( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX43::OrderCancelReplaceRequest cancelReplaceRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ), FIX::HandlInst( '1' ),
+    querySide( Side ), FIX::TransactTime(), queryOrdType( OrdType ) );
+
+  FIX::Header& header = cancelReplaceRequest.getHeader();
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+    cancelReplaceRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  if ( Price != 0 )
+  {
+    cancelReplaceRequest.set( FIX::Price( Price ) );
+  }
+  if ( Shares != 0 )
+  {
+    cancelReplaceRequest.set( FIX::OrderQty( Shares ) );
+  }
+  if ( StopPx != 0 )
+  {
+    cancelReplaceRequest.set( FIX::StopPx( StopPx ) );
+  }
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( cancelReplaceRequest );
+}
+
+void Application::queryCancelReplaceRequest44( std::string SenderCompID, std::string TargetCompID,
+     std::string OrigClOrdID, std::string ClOrdID, std::string Symbol, std::string Side, long Shares, std::string OrdType, double Price, double StopPx )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX44::OrderCancelReplaceRequest cancelReplaceRequest(
+    FIX::OrigClOrdID( OrigClOrdID ), FIX::ClOrdID( ClOrdID ),
+    querySide( Side ), FIX::TransactTime(), queryOrdType( OrdType ) );
+
+  FIX::Header& header = cancelReplaceRequest.getHeader();
+
+  cancelReplaceRequest.set( FIX::HandlInst('1') );
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+    cancelReplaceRequest.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    cancelReplaceRequest.set( FIX::Symbol( Symbol ) );
+  }
+
+  if ( Price != 0 )
+  {
+    cancelReplaceRequest.set( FIX::Price( Price ) );
+  }
+  if ( Shares != 0 )
+  {
+    cancelReplaceRequest.set( FIX::OrderQty( Shares ) );
+  }
+  if ( StopPx != 0 )
+  {
+    cancelReplaceRequest.set( FIX::StopPx( StopPx ) );
+  }
+
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+  FIX::Session::sendToTarget( cancelReplaceRequest );
+}
+
+void Application::queryMarketDataRequest43( std::string SenderCompID, std::string TargetCompID, std::string Symbol )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX::MDReqID mdReqID( "MARKETDATAID" );
+  FIX::SubscriptionRequestType subType( FIX::SubscriptionRequestType_SNAPSHOT );
+  FIX::MarketDepth marketDepth( 0 );
+
+  FIX43::MarketDataRequest::NoMDEntryTypes marketDataEntryGroup;
+  FIX::MDEntryType mdEntryType( FIX::MDEntryType_BID );
+  marketDataEntryGroup.set( mdEntryType );
+
+  FIX43::MarketDataRequest::NoRelatedSym symbolGroup;
+
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    symbolGroup.set( FIX::Symbol( Symbol ) );
+    symbolGroup.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    symbolGroup.set( FIX::Symbol( Symbol ) );
+  }
+
+  FIX43::MarketDataRequest message( mdReqID, subType, marketDepth );
+  message.addGroup( marketDataEntryGroup );
+  message.addGroup( symbolGroup );
+
+  FIX::Header& header = message.getHeader();
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+
+  std::cout << message.toXML() << std::endl;
+  std::cout << message.toString() << std::endl;
+
+  FIX::Session::sendToTarget( message ); 
+}
+
+void Application::queryMarketDataRequest44( std::string SenderCompID, std::string TargetCompID, std::string Symbol )
+{
+  char *p;
+  std::string SymbolSfx;
+
+  FIX::MDReqID mdReqID( "MARKETDATAID" );
+  FIX::SubscriptionRequestType subType( FIX::SubscriptionRequestType_SNAPSHOT );
+  FIX::MarketDepth marketDepth( 0 );
+
+  FIX44::MarketDataRequest::NoMDEntryTypes marketDataEntryGroup;
+  FIX::MDEntryType mdEntryType( FIX::MDEntryType_BID );
+  marketDataEntryGroup.set( mdEntryType );
+
+  FIX44::MarketDataRequest::NoRelatedSym symbolGroup;
+  
+  p = strchr(Symbol.c_str(), '.'); 
+  if(p)
+  { 
+    *p = 0;
+    SymbolSfx = p + 1;
+    symbolGroup.set( FIX::Symbol( Symbol ) );
+    symbolGroup.set( FIX::SymbolSfx( SymbolSfx ) );
+  }
+  else
+  {
+    symbolGroup.set( FIX::Symbol( Symbol ) );
+  }
+
+  FIX44::MarketDataRequest message( mdReqID, subType, marketDepth );
+  message.addGroup( marketDataEntryGroup );
+  message.addGroup( symbolGroup );
+
+  FIX::Header& header = message.getHeader();
+  header.setField( FIX::SenderCompID( SenderCompID ) );
+  header.setField( FIX::TargetCompID( TargetCompID ) );
+
+  std::cout << message.toXML() << std::endl;
+  std::cout << message.toString() << std::endl;
+
+  FIX::Session::sendToTarget( message );
+}
+
+void Application::exit_nicely(PGconn *conn)
+{
+    PQfinish(conn);
+    exit(1);
+}
+
+Application::ConnectInfo Application::queryBroker(std::string MMID)
+{
+  std::string SenderCompID;
+  std::string TargetCompID;
+  int Version;
+  PGconn *conn;
+  const char *conninfo;
+  std::string query;
+  PGresult *res;
+  int i, j;
+  ConnectInfo Info;
+
+  conninfo = "host='localhost' port='5431' dbname='tradeplatform' user='indie' password='indie'";
+  conn = PQconnectdb(conninfo);
+  /* Check to see that the backend connection was successfully made */    
+  if (PQstatus(conn) != CONNECTION_OK)
+  {
+      fprintf(stderr, "libpq error: Connection to database failed: %s",
+              PQerrorMessage(conn));
+      exit_nicely(conn);
+  }
+  query = "select sendercompid, targetcompid, version from broker_connections where mmid = '" + MMID + "';\n";
+  std::cout << query;
+  res = PQexec(conn, query.c_str());
+  if (!res || !(j = PQntuples(res))) 
+  {
+    fprintf(stderr, "libpq error: no rows returned or bad result set\n\n");
+    exit_nicely(conn);
+  }
+  for (i = 0; i < j; i++)
+  {
+    SenderCompID =  PQgetvalue(res, i, 0);
+    TargetCompID =  PQgetvalue(res, i, 1);
+    Version = atoi(PQgetvalue(res, i, 2));
+    //std::cout << "Query Results: " << SenderCompID << " " << TargetCompID << " " << Version << "\n";
+  }
+  PQclear(res);
+
+  Info.SenderCompID = SenderCompID;
+  Info.TargetCompID = TargetCompID;
+  Info.Version = Version;
+  std::cout << Info.SenderCompID;
+  std::cout << Info.TargetCompID;
+  std::cout << Info.Version;
+  PQfinish(conn);
+  return Info;
+}
+
+char Application::queryAction()
+{
+  char value;
+  std::cout << std::endl
+  << "1) Enter Order" << std::endl
+  << "2) Cancel Order" << std::endl
+  << "3) Replace Order" << std::endl
+  << "4) Market data test" << std::endl
+  << "5) Quit" << std::endl
+  << "Action: ";
+  std::cin >> value;
+  switch ( value )
+  {
+    case '1':
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+      break;
+    default: throw std::exception();
+  }
+  std::cout << value <<" Selected.\n";
+  return value;
+}
+
+FIX::Side Application::querySide( std::string Side )
+{
+
+  if (Side=="BUY")
+  {
+    return FIX::Side( FIX::Side_BUY );
+  }
+  else if (Side=="SELL")
+  {
+    return FIX::Side( FIX::Side_SELL );
+  }
+  else if (Side=="SHORT")
+  {
+    return FIX::Side( FIX::Side_SELL_SHORT );
+  }
+  else if (Side=="SELLPLUS")
+  {
+    return FIX::Side( FIX::Side_SELL_PLUS );
+  }
+  else if (Side=="BUYMINUS")
+  {
+    return FIX::Side( FIX::Side_BUY_MINUS );
+  }
+  else
+  {
+    throw std::exception();
+  }
+}
+
+FIX::OrdType Application::queryOrdType( std::string OrdType )
+{
+  if (OrdType=="MKT")
+  {
+    return FIX::OrdType( FIX::OrdType_MARKET );
+  }
+  else if (OrdType=="LMT")
+  {
+    return FIX::OrdType( FIX::OrdType_LIMIT );
+  }
+  else if (OrdType=="STP")
+  {
+    return FIX::OrdType( FIX::OrdType_STOP );
+  }
+  else if (OrdType=="SLMT")
+  {
+    return FIX::OrdType( FIX::OrdType_STOP_LIMIT );
+  }
+  else if (OrdType=="MOC")
+  {
+    return FIX::OrdType( FIX::OrdType_MARKET_ON_CLOSE );
+  }
+  else if (OrdType=="LOC")
+  {
+    return FIX::OrdType( FIX::OrdType_LIMIT_ON_CLOSE );
+  }
+  else if (OrdType=="PEG")
+  {
+    return FIX::OrdType( FIX::OrdType_PEGGED );
+  }
+  else
+  {
+    throw std::exception();
+  }
+}
+
+FIX::TimeInForce Application::queryTimeInForce( std::string TIF )
+{
+  if (TIF=="DAY")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_DAY );
+  }
+  else if (TIF=="IOC")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_IMMEDIATE_OR_CANCEL );
+  }
+  else if (TIF=="FOK")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_FILL_OR_KILL );
+  }
+  else if (TIF=="OPG")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_AT_THE_OPENING );
+  }
+  else if (TIF=="GTC")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_GOOD_TILL_CANCEL );
+  }
+  else if (TIF=="GTX")
+  {
+    return FIX::TimeInForce( FIX::TimeInForce_GOOD_TILL_CROSSING );
+  }
+  else
+  {
+    throw std::exception();
+  }
+}

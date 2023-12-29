@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="92"
+   name=""
+   committed-date="2005-12-11T03:14:21.880652Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/examples"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="1"
+   name="uml_example.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="b4eba4573f53eed116a3effc31fe125e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   committed-rev="1"
+   name="example_notes.txt"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="9d024540c5a69a010d9b2d1ca23df203"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   committed-rev="1"
+   name="example.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="04886a13f798708ec336c9ca8dec2b18"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   committed-rev="25"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-08-06T06:16:13.393627Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+<entry
+   committed-rev="92"
+   name="signature.py"
+   text-time="2007-04-11T23:40:19.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="e6c8ba133da1c045e78e12bd6a318d48"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:19.000000Z"/>
+</wc-entries>

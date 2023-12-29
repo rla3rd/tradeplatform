@@ -1,0 +1,326 @@
+Return-Path: <Paul.Anderson@gs.com>
+X-Original-To: simon@findprofit.com
+Delivered-To: simon@findprofit.com
+Received: from mxcd01.gs.com (mxcd01.gs.com [12.47.209.190]) by
+	findprofit.com (Postfix) with ESMTP id CC27311C3FBC for
+	<simon@findprofit.com>; Mon, 31 Jul 2006 11:53:02 -0400 (EDT)
+Received: from unknown (HELO insvsod01.inz.gs.com) ([207.17.36.78]) by
+	mxcd01.gs.com with ESMTP; 31 Jul 2006 11:53:02 -0400
+Received: from gsmbnop09es.firmwide.corp.gs.com
+	(gsmbnop09es.firmwide.corp.gs.com [154.4.173.171]) by insvsod01.inz.gs.com
+	with ESMTP for simon@findprofit.com; Mon, 31 Jul 2006 11:53:01 -0400
+Content-class: urn:content-classes:message
+Subject: FW: Redi++ CacheControl Registration files
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----_=_NextPart_001_01C6B4B9.66F5D92F"
+X-MimeOLE: Produced By Microsoft Exchange V6.5.7226.0
+Date: Mon, 31 Jul 2006 11:53:01 -0400
+Message-Id: <4723110426F4984498CCA8EC9648DF3B014C593E@gsmbnop09es.firmwide.corp.gs.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Redi++ CacheControl Registration files
+Thread-Index: AcGlvK6qzSfDWhDkEdaaMABQi463Vn+Bp/VwhiHqK2A=
+From: "Anderson, Paul" <Paul.Anderson@gs.com>
+To: "Simon Feely" <simon@findprofit.com>
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C6B4B9.66F5D92F
+Content-Type: multipart/alternative; boundary="----_=_NextPart_002_01C6B4B9.66F5D92F"
+
+
+------_=_NextPart_002_01C6B4B9.66F5D92F
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+________________________________________
+Paul Anderson
+Goldman Sachs Execution & Clearing, L.P.
+Direct: 312-362-2204
+Support: 312-362-FIXX (3499)
+E-mail: Paul.Anderson@GS.com
+________________________________________
+(c) 2005, The Goldman Sachs Group, Inc. All rights reserved.=20
+See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+conflicts of interest and other terms and conditions relating to this
+e-mail and your reliance on information contained in it. This message
+may contain confidential or privileged information. If you are not the
+intended recipient, please advise us immediately and delete this
+message. See http://www.gs.com/disclaimer/email/ for further information
+on confidentiality and the risks of non-secure electronic communication.
+If you cannot access these links, please notify us by reply message and
+we will send the contents to you.
+
+
+> ______________________________________________=20
+> From: 	Anderson, Paul =20
+> Sent:	Monday, July 31, 2006 10:41 AM
+> To:	'Bill Martin'; 'Simon Feely'
+> Cc:	Ferrara, Michael A
+> Subject:	Redi++ CacheControl Registration files
+>=20
+> "PLEASE NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND
+> INTERNAL RECIPIENTS."
+> A new installation of RediPlus does not always properly register the
+> automation properties of the API.  These files will address the
+> "automation" error condition.
+>=20
+> *******
+> I removed the ".reg" file extensions.  Add the ".reg" back on before
+> you execute the files.
+> *******
+>=20
+> Please following the steps below to correct the missing registration
+> of the RediPlus cachecontrol methods:
+>=20
+> 1) Exit RediPlus and the interfacing appl (Excel, VB project, etc)
+> 2) Save the attached cachecontrol files to your machine (location is
+> not important)
+> 	a) Add the ".reg" extension to the file names
+> 3) Double click the "ecahce...." file
+> 4) Double click the "icache...." file
+> 5) Start up the RediPlus application
+> 6) Start up interface application
+> 7) Test cachecontrol interface
+>=20
+>=20
+>  <<ECacheControl-Register>>=20
+>=20
+>  <<ICacheControl-Register>>=20
+> ________________________________________
+> Paul Anderson
+> Goldman Sachs Execution & Clearing, L.P.
+> Direct: 312-362-2204
+> Support: 312-362-FIXX (3499)
+> E-mail: Paul.Anderson@GS.com
+> ________________________________________
+> See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+> conflicts of interest and other terms and conditions relating to this
+> e-mail and your reliance on information contained in it. This message
+> may contain confidential or privileged information. If you are not the
+> intended recipient, please advise us immediately and delete this
+> message. See http://www.gs.com/disclaimer/email/ for further
+> information on confidentiality and the risks of non-secure electronic
+> communication. If you cannot access these links, please notify us by
+> reply message and we will send the contents to you.
+
+------_=_NextPart_002_01C6B4B9.66F5D92F
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+6.5.7233.69">
+<TITLE>FW: Redi++ CacheControl Registration files</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/rtf format -->
+<BR>
+<BR>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Times New Roman">&copy; =
+2005, The Goldman Sachs Group, Inc. All rights reserved.</FONT><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> </FONT></I>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman">See =
+</FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See </FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+<BR>
+<UL>
+<P><FONT SIZE=3D1 =
+FACE=3D"Tahoma">______________________________________________ </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">From: &nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Anderson, Paul&nbsp; </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">Sent:&nbsp;&nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Monday, July 31, 2006 10:41 AM</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">To:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">'Bill Martin'; 'Simon Feely'</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Cc:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">Ferrara, Michael A</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>=
+</B> <FONT SIZE=3D1 FACE=3D"Tahoma">Redi++ CacheControl Registration =
+files</FONT>
+</P>
+
+<P><B><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">&quot;PLEASE =
+NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND INTERNAL =
+RECIPIENTS.&quot;</FONT></I></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">A new installation =
+of RediPlus does not always properly register the automation properties =
+of the API.&nbsp; These files will address the &quot;automation&quot; =
+error condition.</FONT></P>
+
+<P><FONT SIZE=3D2 FACE=3D"Courier New">*******</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Courier New">I removed the &quot;.reg&quot; =
+file extensions.&nbsp; Add the &quot;.reg&quot; back on before you =
+execute the files.</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Courier New">*******</FONT>
+</P>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">Please following the steps below to =
+correct the missing registration of the RediPlus cachecontrol =
+methods:</FONT>
+</P>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">1)</FONT> <FONT SIZE=3D2 =
+FACE=3D"Arial">Exit RediPlus and the interfacing appl (Excel, VB =
+project, etc)</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">2) Save the attached cachecontrol =
+files to your machine (location is not important)</FONT>
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FONT SIZE=3D2 =
+FACE=3D"Arial">a) Add the &quot;.reg&quot; extension to the file =
+names</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">3) Double click the =
+&quot;ecahce....&quot; file</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">4) Double click the =
+&quot;icache....&quot; file</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">5) Start up the RediPlus =
+application</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">6) Start up interface =
+application</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">7) Test cachecontrol interface</FONT>
+</P>
+<BR>
+
+<P><FONT FACE=3D"Arial" SIZE=3D2 COLOR=3D"#000000"> =
+&lt;&lt;ECacheControl-Register&gt;&gt; </FONT>
+</P>
+
+<P><FONT FACE=3D"Arial" SIZE=3D2 COLOR=3D"#000000"> =
+&lt;&lt;ICacheControl-Register&gt;&gt; </FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New =
+Roman">See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+</UL>
+</BODY>
+</HTML>
+------_=_NextPart_002_01C6B4B9.66F5D92F--
+
+------_=_NextPart_001_01C6B4B9.66F5D92F
+Content-Type: application/octet-stream; name="ECacheControl-Register"
+Content-Transfer-Encoding: base64
+Content-Description: ECacheControl-Register
+Content-Disposition: attachment; filename="ECacheControl-Register"
+
+UkVHRURJVDQNCg0KW0hLRVlfQ0xBU1NFU19ST09UXEludGVyZmFjZVx7RjFFNjI4QjUtQzdEMy0x
+MUQwLTgwMEUtMDA4MDVGMjkzMzEwfV0NCkA9IkVDYWNoZUNvbnRyb2wiDQoNCltIS0VZX0NMQVNT
+RVNfUk9PVFxJbnRlcmZhY2Vce0YxRTYyOEI1LUM3RDMtMTFEMC04MDBFLTAwODA1RjI5MzMxMH1c
+UHJveHlTdHViQ2xzaWRdDQpAPSJ7MDAwMjA0MjAtMDAwMC0wMDAwLUMwMDAtMDAwMDAwMDAwMDQ2
+fSINCg0KW0hLRVlfQ0xBU1NFU19ST09UXEludGVyZmFjZVx7RjFFNjI4QjUtQzdEMy0xMUQwLTgw
+MEUtMDA4MDVGMjkzMzEwfVxQcm94eVN0dWJDbHNpZDMyXQ0KQD0iezAwMDIwNDIwLTAwMDAtMDAw
+MC1DMDAwLTAwMDAwMDAwMDA0Nn0iDQoNCltIS0VZX0NMQVNTRVNfUk9PVFxJbnRlcmZhY2Vce0Yx
+RTYyOEI1LUM3RDMtMTFEMC04MDBFLTAwODA1RjI5MzMxMH1cVHlwZUxpYl0NCkA9InsyM0RGNzVC
+MC1GNzhDLTExQ0YtOTRFMS0wMDgwNUYwQTM1RkF9Ig0KIlZlcnNpb24iPSIxLjAiDQoNCg==
+
+------_=_NextPart_001_01C6B4B9.66F5D92F
+Content-Type: application/octet-stream; name="ICacheControl-Register"
+Content-Transfer-Encoding: base64
+Content-Description: ICacheControl-Register
+Content-Disposition: attachment; filename="ICacheControl-Register"
+
+UkVHRURJVDQNCg0KW0hLRVlfQ0xBU1NFU19ST09UXEludGVyZmFjZVx7ODM3M0E1NUQtQzY0Mi0x
+MUQwLTgwMEUtMDA4MDVGMjkzMzEwfV0NCkA9IklDYWNoZUNvbnRyb2wiDQoNCltIS0VZX0NMQVNT
+RVNfUk9PVFxJbnRlcmZhY2VcezgzNzNBNTVELUM2NDItMTFEMC04MDBFLTAwODA1RjI5MzMxMH1c
+UHJveHlTdHViQ2xzaWRdDQpAPSJ7MDAwMjA0MjAtMDAwMC0wMDAwLUMwMDAtMDAwMDAwMDAwMDQ2
+fSINCg0KW0hLRVlfQ0xBU1NFU19ST09UXEludGVyZmFjZVx7ODM3M0E1NUQtQzY0Mi0xMUQwLTgw
+MEUtMDA4MDVGMjkzMzEwfVxQcm94eVN0dWJDbHNpZDMyXQ0KQD0iezAwMDIwNDIwLTAwMDAtMDAw
+MC1DMDAwLTAwMDAwMDAwMDA0Nn0iDQoNCltIS0VZX0NMQVNTRVNfUk9PVFxJbnRlcmZhY2Vcezgz
+NzNBNTVELUM2NDItMTFEMC04MDBFLTAwODA1RjI5MzMxMH1cVHlwZUxpYl0NCkA9InsyM0RGNzVC
+MC1GNzhDLTExQ0YtOTRFMS0wMDgwNUYwQTM1RkF9Ig0KIlZlcnNpb24iPSIxLjAiDQoNCg==
+
+------_=_NextPart_001_01C6B4B9.66F5D92F--

@@ -1,0 +1,284 @@
+Return-Path: <Paul.Anderson@gs.com>
+X-Original-To: simon@findprofit.com
+Delivered-To: simon@findprofit.com
+Received: from mxcd01.gs.com (mxcd01.gs.com [12.47.209.190]) by
+	findprofit.com (Postfix) with ESMTP id 5F4D611C3FBC for
+	<simon@findprofit.com>; Mon, 31 Jul 2006 11:53:02 -0400 (EDT)
+Received: from unknown (HELO insvs8502.inz.gs.com) ([204.4.188.79]) by
+	mxcd01.gs.com with ESMTP; 31 Jul 2006 11:53:02 -0400
+Received: from gsmbnop09es.firmwide.corp.gs.com
+	(gsmbnop09es.firmwide.corp.gs.com [154.4.173.171]) by insvs8502.inz.gs.com
+	with ESMTP for simon@findprofit.com; Mon, 31 Jul 2006 11:53:00 -0400
+Content-class: urn:content-classes:message
+Subject: FW: "Can't find project or library" error
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C6B4B9.668A8EA9"
+X-MimeOLE: Produced By Microsoft Exchange V6.5.7226.0
+Date: Mon, 31 Jul 2006 11:53:00 -0400
+Message-Id: <4723110426F4984498CCA8EC9648DF3B014C593D@gsmbnop09es.firmwide.corp.gs.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: "Can't find project or library" error
+Thread-Index: AcOi36hI/kCcuFsHT3qWuwZ2KjSr9YYjsWhQ
+From: "Anderson, Paul" <Paul.Anderson@gs.com>
+To: "Simon Feely" <simon@findprofit.com>
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C6B4B9.668A8EA9
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+________________________________________
+Paul Anderson
+Goldman Sachs Execution & Clearing, L.P.
+Direct: 312-362-2204
+Support: 312-362-FIXX (3499)
+E-mail: Paul.Anderson@GS.com
+________________________________________
+(c) 2005, The Goldman Sachs Group, Inc. All rights reserved.=20
+See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+conflicts of interest and other terms and conditions relating to this
+e-mail and your reliance on information contained in it. This message
+may contain confidential or privileged information. If you are not the
+intended recipient, please advise us immediately and delete this
+message. See http://www.gs.com/disclaimer/email/ for further information
+on confidentiality and the risks of non-secure electronic communication.
+If you cannot access these links, please notify us by reply message and
+we will send the contents to you.
+
+
+> ______________________________________________=20
+> From: 	Anderson, Paul =20
+> Sent:	Monday, July 31, 2006 10:41 AM
+> To:	'Bill Martin'; 'Simon Feely'
+> Cc:	Ferrara, Michael A
+> Subject:	"Can't find project or library" error
+>=20
+> "PLEASE NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND
+> INTERNAL RECIPIENTS."
+> The "can't find project or library" error is typically caused because
+> the reference to the RediPlus reference file (Redi.TLB) is incorrect.
+> Many times the steps below will correct the error condition.  Please
+> attempt these steps to resolve the issue.  If the problem persists
+> please feel free to contact me for assistance.
+>=20
+> 1)  When the error occurs, close the error window.
+> 2)  In the "References - VBAProject" window, "uncheck" the "Redi"
+> reference.
+> 3)  Click "OK" to close the window.
+> 4)  Save the file in the "Microsoft Visual Basic" environment.
+> 5)  Open the "References" window, TOOLS->REFERENCES
+> 6)  Scroll down to find the "Redi 1.0 Type Library" reference.
+> 7)  "Check" the "Redi 1.0 Type Library" reference.
+> 8)  Click "OK" to close the window.
+> 9)  Save the file in the "Microsoft Visual Basic" environment.
+> 10) Return to the Excel window and save the file.
+> 11) Close the file within Excel.
+> 12) Reopen the spreadsheet.
+>=20
+>=20
+> ________________________________________
+> Paul Anderson
+> Goldman Sachs Execution & Clearing, L.P.
+> Direct: 312-362-2204
+> Support: 312-362-FIXX (3499)
+> E-mail: Paul.Anderson@GS.com
+> ________________________________________
+> (c) 2005, The Goldman Sachs Group, Inc. All rights reserved.=20
+> See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+> conflicts of interest and other terms and conditions relating to this
+> e-mail and your reliance on information contained in it. This message
+> may contain confidential or privileged information. If you are not the
+> intended recipient, please advise us immediately and delete this
+> message. See http://www.gs.com/disclaimer/email/ for further
+> information on confidentiality and the risks of non-secure electronic
+> communication. If you cannot access these links, please notify us by
+> reply message and we will send the contents to you.
+
+------_=_NextPart_001_01C6B4B9.668A8EA9
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+6.5.7233.69">
+<TITLE>FW: &quot;Can't find project or library&quot; error</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/rtf format -->
+<BR>
+<BR>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Times New Roman">&copy; =
+2005, The Goldman Sachs Group, Inc. All rights reserved.</FONT><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> </FONT></I>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman">See =
+</FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See </FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+<BR>
+<UL>
+<P><FONT SIZE=3D1 =
+FACE=3D"Tahoma">______________________________________________ </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">From: &nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Anderson, Paul&nbsp; </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">Sent:&nbsp;&nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Monday, July 31, 2006 10:41 AM</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">To:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">'Bill Martin'; 'Simon Feely'</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Cc:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">Ferrara, Michael A</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>=
+</B> <FONT SIZE=3D1 FACE=3D"Tahoma">&quot;Can't find project or =
+library&quot; error</FONT>
+</P>
+
+<P><B><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">&quot;PLEASE =
+NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND INTERNAL =
+RECIPIENTS.&quot;</FONT></I></B>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">The &quot;can't find project or =
+library&quot; error is typically caused because the reference to the =
+RediPlus reference file (Redi.TLB) is incorrect.</FONT></P>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">Many times the steps below will correct =
+the error condition.&nbsp; Please attempt these steps to resolve the =
+issue.&nbsp; If the problem persists please feel free to contact me for =
+assistance.</FONT></P>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">1)&nbsp; When the =
+error occurs, close the error window.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">2)&nbsp; In the =
+&quot;References - VBAProject&quot; window, &quot;uncheck&quot; the =
+&quot;Redi&quot; reference.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">3)&nbsp; Click =
+&quot;OK&quot; to close the window.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">4)&nbsp; Save the =
+file in the &quot;Microsoft Visual Basic&quot; environment.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">5)&nbsp; Open the =
+&quot;References&quot; window, TOOLS-&gt;REFERENCES</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">6)&nbsp; Scroll down =
+to find the &quot;Redi 1.0 Type Library&quot; reference.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">7)&nbsp; =
+&quot;Check&quot; the &quot;Redi 1.0 Type Library&quot; =
+reference.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">8)&nbsp; Click =
+&quot;OK&quot; to close the window.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">9)&nbsp; Save the =
+file in the &quot;Microsoft Visual Basic&quot; environment.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">10) Return to the =
+Excel window and save the file.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">11) Close the file =
+within Excel.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">12) Reopen the =
+spreadsheet.</FONT>
+</P>
+<BR>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Times New Roman">&copy; =
+2005, The Goldman Sachs Group, Inc. All rights reserved.</FONT><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> </FONT></I>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New =
+Roman">See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+</UL>
+</BODY>
+</HTML>
+------_=_NextPart_001_01C6B4B9.668A8EA9--

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="236"
+   name=""
+   committed-date="2007-03-22T16:29:02.494549Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/sm/wxp"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="236"
+   name="stc.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-22T16:29:02.494549Z"
+   checksum="b3ea07b06d78599d30435c81bc175c61"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="197"
+   name="smdi.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-09T22:33:50.510054Z"
+   checksum="bdb0cc165200be40ef69873b081b2e97"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="145"
+   name="__init__.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2006-01-23T00:18:24.954480Z"
+   checksum="77fa79492d9ca8ac8cfb937109004258"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="121"
+   name="realtime.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2006-01-04T15:20:37.896508Z"
+   checksum="a4cc30232ceb392ecdaf584fb6a6f446"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="34"
+   name="singleApp.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2005-08-11T22:43:59.320472Z"
+   checksum="9d7f5852e03876fe8b2898fe4c8c5813"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="152"
+   name="pil.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="76226028d94ddaa894e6a9ddc6a3fb6b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+<entry
+   committed-rev="204"
+   name="NotebookCtrl.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-13T22:53:31.803818Z"
+   checksum="aad991f9b2ea0718958c5a71d246749f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+</wc-entries>

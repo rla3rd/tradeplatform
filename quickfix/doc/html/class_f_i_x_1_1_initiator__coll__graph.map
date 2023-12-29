@@ -1,0 +1,8 @@
+base referer
+rect $class_f_i_x_1_1_log.html 26,98 80,122
+rect $class_f_i_x_1_1_session_state.html 216,192 327,216
+rect $class_f_i_x_1_1_application.html 222,360 321,384
+rect $class_f_i_x_1_1_mutex.html 18,269 88,293
+rect $class_f_i_x_1_1_message_store_factory.html 190,414 353,438
+rect $class_f_i_x_1_1_log_factory.html 222,477 321,501
+rect $class_f_i_x_1_1_session_settings.html 208,540 335,564

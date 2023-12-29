@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_utc_date.html 6,93 86,117
+rect $class_f_i_x_1_1_utc_time_only.html 110,93 220,117
+rect $class_f_i_x_1_1_utc_time_stamp.html 244,93 364,117

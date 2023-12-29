@@ -1,0 +1,6 @@
+base referer
+rect $class_f_i_x_1_1_responder.html 6,18 102,42
+rect $class_f_i_x_1_1_session.html 178,109 258,133
+rect $class_f_i_x_1_1_log.html 434,109 488,133
+rect $class_f_i_x_1_1_application.html 226,18 325,42
+rect $class_f_i_x_1_1_parser.html 512,109 584,133

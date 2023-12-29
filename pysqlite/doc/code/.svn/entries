@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="386"
+   name=""
+   committed-date="2007-02-11T11:55:29.732342Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/doc/code"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="217"
+   name="shared_cache.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2006-02-01T22:35:59.359645Z"
+   checksum="5e2f177a6dd6477953e6d49667056dbe"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="execsql_printall_1.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="6793d8e97ba85868535b989677dddc78"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="insert_more_people.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="928d146b2c89fb4540f21090218858cc"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="parse_colnames.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="4464a165304d22927884cdd4e2a32bc8"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="adapter_datetime.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="af3338aed999663c4c93515bbe94e187"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="281"
+   name="authorizer.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2006-06-13T17:23:36.539738Z"
+   checksum="55299a824d8569de4dcb1b0848ecd81f"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="385"
+   name="complete_statement.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:24:46.198633Z"
+   checksum="9cd7d75888dfef9e03f0c66db69e79b2"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="192"
+   name="rowclass.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2005-12-29T00:41:21.287269Z"
+   checksum="ff8fa9e1a9a71cfac82d71b581ea6e26"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="shortcut_methods.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="ad2aa94bfe4bc724bb04b900fed9374d"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="row_factory.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="d0150421932c3300efe2aeec5bbf2168"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="md5func.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="2fc6044fe9f74ae4e172b0fe21fbcf89"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="simple_tableprinter.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="300d713a8853b7a774720de5402b9033"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="executemany_1.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="9cb407490769e1e7d7acb4e8e27ce9f5"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="execsql_fetchonerow.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="64d3fe659173f87987ace3426f5594de"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="executemany_2.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="65f10956ab9f43b2c5f50c584520d2c6"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="createdb.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="1d7e7d393e740b5c543b3a2d537c4074"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="countcursors.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="4fe5366aad04edc281c01c8cc354704d"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="adapter_point_1.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="c2bc7c9ca60559d47e9040fe8d9c4881"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="adapter_point_2.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="2faebe12f6409f0dc5959c537a441ffe"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="mysumaggr.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="bcbcc3805aad867b88cf82d65fa2d9e5"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="text_factory.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="60af8c7372249ddbb347593773c0db09"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="connect_db_1.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="2108a36f69834a0b1eace1303a72eacf"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="connect_db_2.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="8ddf63e6bab4e058583d5b01650e95fb"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="collation_reverse.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="f0b14c428dfda7b401aa36d4c0efa6d8"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="converter_point.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="844341fa08a11cc1f634bd4df9418c9b"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="execute_1.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="39a395b88877c04830d3fd7ff8abfd01"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="execute_2.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="766fd8a89b9b29ccf0159152d366d9df"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="execute_3.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="fd0480f68549a2e1db60c810f4d6cdd7"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="pysqlite_datetime.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="2e8f1244fadf3cb0c8cf2fa2ef3946c7"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="executescript.py"
+   text-time="2007-04-18T23:35:50.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="5fd6dd1d244bc7ec24081ad3b00c9a80"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+</wc-entries>

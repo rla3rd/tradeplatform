@@ -1,0 +1,11 @@
+base referer
+rect $class_f_i_x_1_1_field_base.html 19,199 109,222
+rect $class_f_i_x_1_1_bool_field.html 189,7 277,31
+rect $class_f_i_x_1_1_char_field.html 189,55 277,79
+rect $class_f_i_x_1_1_check_sum_field.html 170,103 296,127
+rect $class_f_i_x_1_1_double_field.html 182,151 284,175
+rect $class_f_i_x_1_1_int_field.html 196,199 270,222
+rect $class_f_i_x_1_1_string_field.html 185,246 281,270
+rect $class_f_i_x_1_1_utc_date_field.html 178,294 288,318
+rect $class_f_i_x_1_1_utc_time_only_field.html 165,342 301,366
+rect $class_f_i_x_1_1_utc_time_stamp_field.html 160,390 306,414

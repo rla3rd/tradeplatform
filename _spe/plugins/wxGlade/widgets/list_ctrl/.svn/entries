@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/list_ctrl"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="152"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:05.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="5dc4a3bcf1ee668f53068a01e744c9aa"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:05.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:05.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="1719e0a182ce38b8cd9b39b43d53be76"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:05.000000Z"/>
+<entry
+   committed-rev="162"
+   name="list_ctrl.py"
+   text-time="2007-04-11T23:40:05.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="3789036e712e4cf8dfa9a0c4fe19a0a9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:05.000000Z"/>
+<entry
+   committed-rev="53"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:05.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="d311f0f90cf459119b9c34b4e581d787"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:05.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:05.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="63b0d5df148868a38771b899d24fc2fc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:05.000000Z"/>
+</wc-entries>

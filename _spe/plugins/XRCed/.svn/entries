@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="206"
+   name=""
+   committed-date="2007-03-13T23:16:40.704757Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/XRCed"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="206"
+   name="TODO.txt"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="dded933c0ae15ad19105b09795021f69"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:52.000000Z"/>
+<entry
+   committed-rev="206"
+   name="CHANGES.txt"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="98d40b83143b3f0fba3a1ba3577f342c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:52.000000Z"/>
+<entry
+   committed-rev="206"
+   name="__init__.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="6256f5516f4e4a93f5fd535683860a99"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:52.000000Z"/>
+<entry
+   committed-rev="206"
+   name="panel.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="755a0ef6cc1c85a74754069f644a6162"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:52.000000Z"/>
+<entry
+   committed-rev="206"
+   name="tree.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="42c38a4417388f39c4b66e93e10e0e2e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:52.000000Z"/>
+<entry
+   committed-rev="206"
+   name="tools.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="8645333607233009eb9b4488b43a2859"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="sawfishrc"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="170b0e054dd4e83d61f2224d8be92b71"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   name="src-images"
+   kind="dir"/>
+<entry
+   committed-rev="206"
+   name="xrced.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d5a2358806da1a2ed0a15e6ab55dce92"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="undo.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="77f2d99e0ce853091eca406b493703ee"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="XRCed_32.png"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="79e79b11b3aeeb9d7daf2ca069edc2c3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="images.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f1db8439647e2671052649cc2495319e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="XRCed_16.png"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f77e80f483c551b2607539d8d529ffe9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="xrced.xrc"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="07e6aef6aa342c58c3640de5c1dbbb94"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="license.txt"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d62f39f5e961ad1e78be173731c0c43b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="encode_bitmaps.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e9ded9655b239f038a0d94eb50779bdb"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="params.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="ebef0b8d9995c0510020a027e2d0ed29"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="globals.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="57124ef788c0ec5bae991f366c1d9573"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="README.txt"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="11684dbdaff292c03e3b33deb4ca3704"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="xrced.ico"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="33bbf968218c954900070ec2e05ce106"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="xrced.sh"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="edb80e385d4dadf2da6fa3941e853c34"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+<entry
+   committed-rev="206"
+   name="xxx.py"
+   text-time="2007-04-11T23:39:55.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="8efe9d49cde9de4fe2897fc1bb30dab0"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:55.000000Z"/>
+</wc-entries>

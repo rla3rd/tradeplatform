@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/spacer"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="162"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:07.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="8e2bf34eebe65b423337bef9a775f351"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   committed-rev="162"
+   name="spacer.py"
+   text-time="2007-04-11T23:40:07.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="685b3106a484cc9463e187005a0c6693"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:07.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="12178bbcca614fe542d5fa45836a4c7f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   committed-rev="53"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:07.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="8ed7f89a930df426579a5ba23127da07"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:07.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="2e85019e2d53db64f8dcc4a0808c7139"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="144"
+   name=""
+   committed-date="2006-01-21T22:03:15.919818Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/doc"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="25"
+   name="home.py"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-08-06T06:16:13.393627Z"
+   checksum="c5807f59649fe7351197f5af4aebeade"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="144"
+   name="about.htm"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2006-01-21T22:03:15.919818Z"
+   checksum="496dd8ff7c75aaf095d494833642e006"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="donate.html"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="ceb95ec5122c2731fa32435621c27823"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+</wc-entries>

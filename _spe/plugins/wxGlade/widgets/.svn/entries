@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="164"
+   name=""
+   committed-date="2007-02-28T12:01:33.427356Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   name="notebook"
+   kind="dir"/>
+<entry
+   name="list_box"
+   kind="dir"/>
+<entry
+   name="tree_ctrl"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="widgets.txt"
+   text-time="2007-04-11T23:40:11.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="87cfe6536eea6b4d8b9a77e07edf37ed"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:02.000000Z"/>
+<entry
+   name="checkbox"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:11.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="3adae8410cb1b520b679d13c46d6ab2c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:02.000000Z"/>
+<entry
+   name="gauge"
+   kind="dir"/>
+<entry
+   name="radio_button"
+   kind="dir"/>
+<entry
+   name="menubar"
+   kind="dir"/>
+<entry
+   name="choice"
+   kind="dir"/>
+<entry
+   name="static_text"
+   kind="dir"/>
+<entry
+   name="splitter_window"
+   kind="dir"/>
+<entry
+   name="panel"
+   kind="dir"/>
+<entry
+   name="list_ctrl"
+   kind="dir"/>
+<entry
+   name="datepicker_ctrl"
+   kind="dir"/>
+<entry
+   name="spin_button"
+   kind="dir"/>
+<entry
+   name="combo_box"
+   kind="dir"/>
+<entry
+   name="bitmap_button"
+   kind="dir"/>
+<entry
+   name="text_ctrl"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="ChoicesProperty.py"
+   text-time="2007-04-11T23:40:11.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="e2d25ab850a55c23e63b5e96512a4179"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   committed-rev="53"
+   name="MenuTree.py"
+   text-time="2007-04-11T23:40:11.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b60b19e6520037ff529fd5a4bbaa7a65"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:07.000000Z"/>
+<entry
+   name="spacer"
+   kind="dir"/>
+<entry
+   name="slider"
+   kind="dir"/>
+<entry
+   name="static_bitmap"
+   kind="dir"/>
+<entry
+   name="grid"
+   kind="dir"/>
+<entry
+   name="frame"
+   kind="dir"/>
+<entry
+   name="calendar_ctrl"
+   kind="dir"/>
+<entry
+   name="spin_ctrl"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="ChoicesCodeHandler.py"
+   text-time="2007-04-11T23:40:11.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="56b66c67ef1041ac36cf440373c4c18b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:08.000000Z"/>
+<entry
+   name="static_line"
+   kind="dir"/>
+<entry
+   name="dialog"
+   kind="dir"/>
+<entry
+   name="toolbar"
+   kind="dir"/>
+<entry
+   name="radio_box"
+   kind="dir"/>
+<entry
+   name="button"
+   kind="dir"/>
+<entry
+   name="toggle_button"
+   kind="dir"/>
+<entry
+   name="custom_widget"
+   kind="dir"/>
+</wc-entries>

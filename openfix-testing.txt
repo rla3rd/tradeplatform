@@ -1,0 +1,9 @@
+OpenFIX Testing Service Firewall Configuration Information
+
+If you are behind a firewall, you must configure it to allow FIX connections through to the IP addresses listed below.
+
+If you are acting as the FIX Client connecting TO the OpenFIX Testing Service, allow connections to:
+network 64.74.45.64 netmask 255.255.255.224 (ie, 64.74.45.64 to 64.74.45.95) port 7001
+
+If you are acting as the FIX Server receiving connections FROM the OpenFIX Testing Service, allow connections from:
+network 64.74.45.64 netmask 255.255.255.224 (ie, 64.74.45.64 to 64.74.45.95)

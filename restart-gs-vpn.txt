@@ -1,0 +1,2 @@
+usr/sbin/ipsec auto --down gs-production-1
+usr/sbin/ipsec auto --up gs-production-1

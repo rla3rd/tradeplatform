@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="152"
+   name=""
+   committed-date="2006-10-19T21:17:20.209609Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/skins/default"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="1"
+   name="fileprint.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="77eb274b73d8942f1d7a62eb9608e92e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="empty.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="97f830842289a3d5cc73c6b4f4ff81d6"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="viewmag.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="a96f8b37e598068d9ece94ff780f11a9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="152"
+   name="icon_py_edit_red.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="88afad7b572766d1bef5693e04e95c2f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="icon_py.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="c751d2e46ba6043285e49728627ee936"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="separator.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="ea3b1d374e0a37bb222a9ed483545fde"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="fileopen.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="bfc8ae57a072b888688ab5ab941f4c43"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="editcut.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="22cdc3df4718cd0be6b5ce8d2f97ed9e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tab_right.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="58aa38a653b4024727f123ccf79fd570"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="__init__.py"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="36ec173606aa9d7ddb00a22d4c8e73c6"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="undo.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="981942c87e1356b88abb291a5c19deaa"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="uncomment.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="0856d6731ae40f51805290a565602d97"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="goto.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="ee6c25f59c587c3a31e9104c25b0385e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="source_py.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="c2d6766655256e2365ce8da20f0b9185"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="118"
+   name="lookup.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-23T00:10:21.292862Z"
+   checksum="56494450b5d92f5a779db4737a89f863"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="indent.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="24ea81f4e5482f96e36d75b67267bc6e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="editpaste.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="25d067d994296ff872067feba039dd71"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="filesaveas.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="fbde0308fe8dbf2a1b2074e718d9f77b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="session.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="d1193db5153b6c8885242d42f489bfac"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="warning.gif"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="f3db7278bd8cab35c205079f7c9a66a1"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="icon.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="481f79c8298a6545a530dfd0c0285c9f"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="redo.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="a02f4d41b4197d4d65fa02e8e829e1ec"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="blenpy.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="4ec8b58289a87c75a976bd3d51743a27"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="66"
+   name="documentinfo.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-11-03T05:28:01.228227Z"
+   checksum="315b49a18c592128876e1acb9117a8f7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="file_properties.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="c44664d742bfb3fc7e9fa822cde1f8f4"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="folder_open.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="b94c179975e6bbd9a320dea6ecc7b7ae"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="folder_delete.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="c6dd3c736dd95a85f9b14056901ad42a"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="uml.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="05941a6b4f84a71079c50c2c4400b1f5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="throbber_still.gif"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="c8aa2b925893781515b3c6802bbfda50"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="source.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="d5449633b7e7bae1b0ffe9b365fb1647"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="118"
+   name="output.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-23T00:10:21.292862Z"
+   checksum="83f01dcaecff291ddcaf1af6a6825e83"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="71"
+   name="index_char.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-11-23T12:08:08.683910Z"
+   checksum="b7382f130b5d3e822899f7a3acdfdafc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="class.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="241762ab6c440694f7a3f49633f8368b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="152"
+   name="icon_py_edit.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="8ce5887119eb5c0b009129b50dd6dea9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="note.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="8f98461c5271947784433bade78b33d1"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="exit.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="c3c178df615adfd450555ae81a6c43f9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="import.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="e99a10e3414bb1b0528f1c68b599089b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="blender.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="a8fe8f88dbfd45b14a37ab897be3db86"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="spe_about.jpg"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="ef038374b55aa15bde1b13ada7b2027d"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="explore.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="f00c83a6f7e34dd579ee6912ccc48601"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="view_top_bottom.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="e13bde0d4e7ebba84503be2d2fd28351"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tab_left.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="37675700473d72d96fcd0004554659c0"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="editcopy.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="c2bb88f8c319e4cc589bfbb4218cbdbb"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="thumbnail.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="4fec3eb838f04829ef81bfd466d1cb9e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="browser.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="b608e332b4e5c9897742dbc722a246eb"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="92"
+   name="folder_new.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="3e7c0d3d361de86228d86c2404db8cfc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="def.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="fb9b53b611bcf0ab91c08e924c035dad"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="throbber_Layer 1.gif"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="29cbd6244b8d8e0221e538ade12f2742"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="down.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="836c93470aa5790b434f69b60f8a1b06"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="shell.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="3b4fabb314a52301ff764a25861ee0ec"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="folder.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="123b30adf22efff8db5361efc8f6f1ba"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="favicon.ico"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="7c7b66d305e9377fa1fce9f9a74464d9"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="locals.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="1c8a42dc603236032aed83fe6e34a198"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="pychecker.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="aeba7917d2a4aabb3124ef65b79f228b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="_.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="a3ba98eb25f9a98838c14744c40125c6"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="find.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="2d328eda0336a744aa752a768ac3957e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="recent.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="4deb7285a24768eaff2427e314eae5ae"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="71"
+   name="index_char_win.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-11-23T12:08:08.683910Z"
+   checksum="207b95a4d369b4ef9dbbe4dbaa0bcfe2"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="help.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="de70068671fa5434164bafb2fa0a80ad"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="notes.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="59ff41ef438443990fb1a7df8fe06acd"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="95"
+   name="filesave.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T22:34:50.628431Z"
+   checksum="bb0bfe910f74b3831c7724304c0abe5c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="remember.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="a3930704cfa83c557fd557dbd1cd0d2a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="comment.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="adcfc8619f1116051d34cde3d20008b8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="dedent.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="819196ce1cb726e339a42808c787dd18"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="run.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="83f01dcaecff291ddcaf1af6a6825e83"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="forward.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="6dde6fb1cef01e55af1ec3aa519c8542"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="todo.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="abdee32c539c65820f45fd86f894134a"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="index.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="19f45ff2563effddd3e1587b5007a57b"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="blenderRef.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="6120e37a66997931918d377744b252f1"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="run_debug.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="c87762ebd722aee854ebc47d33e6f6f9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="donate.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="70415ad1f4050b255f8a4f0246b8ea0e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="92"
+   name="workspace_save.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="d5bde5ed31425850299305efe9636156"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="filefind.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="27ec08105f4a371bddd4aaf8f0af60b0"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="spe_about.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="28afb52b821975954377c10d9629e3b4"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="92"
+   name="view_left_right.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="44a290947c80078fec29b53a6e9219cc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="92"
+   name="debug.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="8d3c9fb460751b74dcba8dfdf205883b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="encoding.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="27bc202d584705568188144005f1d85d"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="spe.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="06e6303d5cea2366a1ed54bd9e7d1b9a"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="92"
+   name="throbber.gif"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-12-11T03:14:21.880652Z"
+   checksum="40418383947fe6335056fce05abe44a2"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="filenew.png"
+   text-time="2007-04-11T23:39:46.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="7a5d8fdb91d6497b9962343c5649868e"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:46.000000Z"/>
+</wc-entries>

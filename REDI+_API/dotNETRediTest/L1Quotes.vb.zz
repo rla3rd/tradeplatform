@@ -1,0 +1,302 @@
+Public Class frmL1Quotes
+    Inherits System.Windows.Forms.Form
+
+#Region " Windows Form Designer generated code "
+
+    Public Sub New()
+        MyBase.New()
+
+        'This call is required by the Windows Form Designer.
+        InitializeComponent()
+
+        'Add any initialization after the InitializeComponent() call
+
+    End Sub
+
+    'Form overrides dispose to clean up the component list.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    Friend WithEvents btnStart As System.Windows.Forms.Button
+    Friend WithEvents btnStop As System.Windows.Forms.Button
+    Friend WithEvents txtSymbol As System.Windows.Forms.TextBox
+    Friend WithEvents btnAddSymbol As System.Windows.Forms.Button
+    Friend WithEvents lstSymbols As System.Windows.Forms.ListBox
+    Friend WithEvents lblSymbol As System.Windows.Forms.Label
+    Friend WithEvents lblLast As System.Windows.Forms.Label
+    Friend WithEvents btnDelete As System.Windows.Forms.Button
+    Friend WithEvents lstLast As System.Windows.Forms.ListBox
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(frmL1Quotes))
+        Me.txtSymbol = New System.Windows.Forms.TextBox()
+        Me.btnAddSymbol = New System.Windows.Forms.Button()
+        Me.btnStart = New System.Windows.Forms.Button()
+        Me.btnStop = New System.Windows.Forms.Button()
+        Me.lstSymbols = New System.Windows.Forms.ListBox()
+        Me.lstLast = New System.Windows.Forms.ListBox()
+        Me.lblSymbol = New System.Windows.Forms.Label()
+        Me.lblLast = New System.Windows.Forms.Label()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'txtSymbol
+        '
+        Me.txtSymbol.Location = New System.Drawing.Point(8, 8)
+        Me.txtSymbol.Name = "txtSymbol"
+        Me.txtSymbol.Size = New System.Drawing.Size(94, 20)
+        Me.txtSymbol.TabIndex = 0
+        Me.txtSymbol.Text = ""
+        '
+        'btnAddSymbol
+        '
+        Me.btnAddSymbol.Location = New System.Drawing.Point(112, 9)
+        Me.btnAddSymbol.Name = "btnAddSymbol"
+        Me.btnAddSymbol.Size = New System.Drawing.Size(82, 20)
+        Me.btnAddSymbol.TabIndex = 1
+        Me.btnAddSymbol.Text = "Add Symbol"
+        '
+        'btnStart
+        '
+        Me.btnStart.Location = New System.Drawing.Point(159, 50)
+        Me.btnStart.Name = "btnStart"
+        Me.btnStart.Size = New System.Drawing.Size(82, 25)
+        Me.btnStart.TabIndex = 4
+        Me.btnStart.Text = "Start L1"
+        '
+        'btnStop
+        '
+        Me.btnStop.Location = New System.Drawing.Point(159, 80)
+        Me.btnStop.Name = "btnStop"
+        Me.btnStop.Size = New System.Drawing.Size(82, 25)
+        Me.btnStop.TabIndex = 5
+        Me.btnStop.Text = "Stop L1"
+        '
+        'lstSymbols
+        '
+        Me.lstSymbols.Location = New System.Drawing.Point(6, 52)
+        Me.lstSymbols.Name = "lstSymbols"
+        Me.lstSymbols.Size = New System.Drawing.Size(68, 160)
+        Me.lstSymbols.TabIndex = 6
+        '
+        'lstLast
+        '
+        Me.lstLast.Location = New System.Drawing.Point(83, 53)
+        Me.lstLast.Name = "lstLast"
+        Me.lstLast.Size = New System.Drawing.Size(68, 160)
+        Me.lstLast.TabIndex = 7
+        '
+        'lblSymbol
+        '
+        Me.lblSymbol.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSymbol.Location = New System.Drawing.Point(6, 35)
+        Me.lblSymbol.Name = "lblSymbol"
+        Me.lblSymbol.Size = New System.Drawing.Size(53, 15)
+        Me.lblSymbol.TabIndex = 8
+        Me.lblSymbol.Text = "Symbol"
+        '
+        'lblLast
+        '
+        Me.lblLast.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLast.Location = New System.Drawing.Point(83, 34)
+        Me.lblLast.Name = "lblLast"
+        Me.lblLast.Size = New System.Drawing.Size(28, 15)
+        Me.lblLast.TabIndex = 9
+        Me.lblLast.Text = "Last"
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Location = New System.Drawing.Point(159, 110)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(82, 35)
+        Me.btnDelete.TabIndex = 10
+        Me.btnDelete.Text = "Delete Symbol"
+        '
+        'frmL1Quotes
+        '
+        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+        Me.ClientSize = New System.Drawing.Size(250, 220)
+        Me.Controls.AddRange(New System.Windows.Forms.Control() {Me.btnDelete, Me.lblLast, Me.lblSymbol, Me.lstLast, Me.lstSymbols, Me.btnStop, Me.btnStart, Me.btnAddSymbol, Me.txtSymbol})
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "frmL1Quotes"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "L1 Quotes"
+        Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+
+    Private WithEvents RediCache As RediLib.CacheControl
+    Dim L1Query As Object
+
+    Private Sub btnAddSymbol_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAddSymbol.Click
+        lstSymbols.Items.Add(txtSymbol.Text.ToUpper)
+        lstLast.Items.Add("")
+    End Sub
+
+    Private Sub btnStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStart.Click
+
+        Dim verr As Object : Dim vtable As Object : Dim vwhere As Object
+
+        If (L1Query) Then 'A query was previously set
+            RediCache.Revoke(verr) 'clear it before setting new
+            verr = Nothing
+            L1Query = Nothing
+        End If
+
+        If RediCache Is Nothing Then
+            RediCache = New RediLib.CacheControl()
+        End If
+
+        RediCache.UserID = "u40000"
+        RediCache.Password = "demo12"
+
+        vtable = "L1"
+        vwhere = "true"
+
+        L1Query = RediCache.Submit(vtable, vwhere, verr)
+
+        Dim vreturn As Object = Nothing
+        Dim watchtype As Object = 0
+        Dim symbol As Object
+        Dim symbol2 As Object = ""
+        Dim vaError As Object
+        Dim NRE As NullReferenceException
+        Dim i As Integer
+
+        For i = 0 To lstSymbols.Items.Count - 1
+            symbol = lstSymbols.Items.Item(i)
+            vaError = Nothing
+            '
+            'In dotNET the AddWatch always raises an error.  Therefore a Try and catch was added to
+            'allow the code to continue running
+            '
+            Try
+                Call RediCache.AddWatch(watchtype, symbol, symbol2, vaError)
+            Catch NRE
+                'Debug.Write(NRE.Message)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.ToString)
+            End Try
+        Next i
+    End Sub
+
+    Private Sub CacheEvent(ByVal A As Integer, ByVal b As Integer) Handles RediCache.CacheEvent
+        Dim vdata As Object
+        Dim myerr As Object
+        Dim Row As Integer
+        Dim mycolumn As String
+        Dim strSymbol As String
+        Dim intSymIndex As Integer
+
+        Select Case A
+            Case 1
+                Row = b - 1
+                mycolumn = "Symbol"
+                RediCache.GetCell(Row, mycolumn, vdata, myerr)
+                strSymbol = vdata
+                vdata = Nothing
+                myerr = Nothing
+                mycolumn = "Last"
+                RediCache.GetCell(Row, mycolumn, vdata, myerr)
+                intSymIndex = lstSymbols.Items.IndexOf(strSymbol.ToUpper)
+                lstLast.Items.Item(intSymIndex) = vdata
+                vdata = Nothing
+                myerr = Nothing
+            Case Else
+                Row = b
+                mycolumn = "Symbol"
+                RediCache.GetCell(Row, mycolumn, vdata, myerr)
+                strSymbol = vdata
+                vdata = Nothing
+                myerr = Nothing
+                mycolumn = "Last"
+                RediCache.GetCell(Row, mycolumn, vdata, myerr)
+                intSymIndex = lstSymbols.Items.IndexOf(strSymbol.ToUpper)
+                lstLast.Items.Item(intSymIndex) = vdata
+                vdata = Nothing
+                myerr = Nothing
+        End Select
+    End Sub
+
+    Private Sub btnStop_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStop.Click
+        Dim vreturn As Object = Nothing
+        Dim watchtype As Object = 0
+        Dim symbol As Object
+        Dim symbol2 As Object = ""
+        Dim vaError As Object
+        Dim NRE As NullReferenceException
+        Dim i As Integer
+
+        For i = 0 To lstSymbols.Items.Count - 1
+            symbol = lstSymbols.Items.Item(i)
+            vaError = Nothing
+            '
+            'In dotNET the DeleteWatch always raises an error.  Therefore a Try and catch was added to
+            'allow the code to continue running
+            '
+            Try
+                Call RediCache.DeleteWatch(watchtype, symbol, symbol2, vaError)
+            Catch NRE
+                'Debug.Write(NRE.Message)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.ToString)
+            End Try
+        Next i
+
+    End Sub
+
+    Private Sub btnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDelete.Click
+        Dim vreturn As Object = Nothing
+        Dim watchtype As Object = 0
+        Dim symbol As Object
+        Dim symbol2 As Object = ""
+        Dim vaError As Object
+        Dim intSelected As Integer
+        Dim NRE As NullReferenceException
+
+        intSelected = lstSymbols.SelectedIndex
+        If intSelected >= 0 Then
+            symbol = lstSymbols.Items.Item(intSelected)
+            vaError = Nothing
+            '
+            'In dotNET the DeleteWatch always raises an error.  Therefore a Try and catch was added to
+            'allow the code to continue running
+            '
+            Try
+                Call RediCache.DeleteWatch(watchtype, symbol, symbol2, vaError)
+            Catch NRE
+                'Debug.Write(NRE.Message)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.Source)
+                'Debug.Write(NRE.ToString)
+            End Try
+
+            lstSymbols.Items.RemoveAt(intSelected)
+            lstLast.Items.RemoveAt(intSelected)
+        End If
+    End Sub
+
+    Private Sub txtSymbol_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles txtSymbol.MouseDown
+        txtSymbol.SelectionStart = 0
+        txtSymbol.SelectionLength = Len(txtSymbol.Text)
+    End Sub
+
+    Private Sub frmL1Quotes_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class

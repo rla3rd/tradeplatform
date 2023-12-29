@@ -1,0 +1,7 @@
+base referer
+rect $class_f_i_x_1_1_log.html 6,109 60,133
+rect $class_f_i_x_1_1_application.html 110,109 209,133
+rect $class_f_i_x_1_1_message_store_factory.html 233,109 395,133
+rect $class_f_i_x_1_1_log_factory.html 442,109 541,133
+rect $class_f_i_x_1_1_session_settings.html 565,109 693,133
+rect $class_f_i_x_1_1_dictionary.html 583,18 674,42

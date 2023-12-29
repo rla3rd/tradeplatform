@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="163"
+   name=""
+   committed-date="2007-02-28T11:40:04.283781Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/locale/en"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   name="LC_MESSAGES"
+   kind="dir"/>
+</wc-entries>

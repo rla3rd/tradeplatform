@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-07-29T18:15:44.226652Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/images"
+   last-author="poptop"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="1"
+   name="keyboard.png"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="3641cf94967a522b0f14d72771a43e17"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="x-click-butcc-donate.gif"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="444d76619a506bd756b4961dd94cfcb3"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="key_bindings.png"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="883c065852b5966c9d703b06aeebffc9"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="x-click-but20.gif"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="e407c3f9348d3ab1461cca4a226d33e8"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="spe.png"
+   text-time="2007-04-11T23:39:48.000000Z"
+   committed-date="2005-07-29T18:15:44.226652Z"
+   checksum="093c09ed3874225ba06df450721e8c86"
+   last-author="poptop"
+   kind="file"
+   prop-time="2007-04-11T23:39:48.000000Z"/>
+</wc-entries>

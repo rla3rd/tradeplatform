@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="386"
+   name=""
+   committed-date="2007-02-11T11:55:29.732342Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/pysqlite2"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="242"
+   name="__init__.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-03-30T21:16:07.212335Z"
+   checksum="f4a18e50a730ab0b835a38d3f9511e8a"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   committed-rev="386"
+   name="dbapi2.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2007-02-11T11:55:29.732342Z"
+   checksum="b03d4b877995a2aff0d463029b69236e"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+</wc-entries>

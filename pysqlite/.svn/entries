@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="386"
+   name=""
+   committed-date="2007-02-11T11:55:29.732342Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="21"
+   name="LICENSE"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2004-10-26T09:26:09.098947Z"
+   checksum="fe2337754981420c09ab86b8e626a16f"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="202"
+   name="ez_setup.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-01-19T22:08:32.895229Z"
+   checksum="52fdef85aac9211dc2b2c88b618e9063"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="383"
+   name="setup.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2007-01-24T16:28:48.516838Z"
+   checksum="6661d6ab5aee701ae0d683bdffec561b"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="128"
+   name="docutilsupport.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2005-05-08T01:03:47.576478Z"
+   checksum="e32f0b6eaf83edcbf4b6a1a38b2977f0"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="scripts"
+   kind="dir"/>
+<entry
+   name="misc"
+   kind="dir"/>
+<entry
+   name="pysqlite2"
+   kind="dir"/>
+<entry
+   committed-rev="273"
+   name="setup.cfg"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-06-05T00:42:35.670749Z"
+   checksum="86dd356c65afd14a22f2f8f64a26441e"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   committed-rev="227"
+   name="extended_setup.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-02-09T16:32:09.739142Z"
+   checksum="91e572c888d044c5def6e2c4c9f1b044"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="195"
+   name="upload-docs"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2006-01-15T16:36:37.933738Z"
+   checksum="32084eb8faf07f9b655e4de424ab6dd9"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="133"
+   name="MANIFEST.in"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2005-05-14T14:07:26.276238Z"
+   checksum="67cd4ced26a79d7ae29f175ab1f41d70"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="158"
+   name="win32env.cmd"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2005-09-11T20:51:06.616136Z"
+   checksum="dae9294083e8b46fb191b6a4865ef9b7"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   name="benchmarks"
+   kind="dir"/>
+</wc-entries>

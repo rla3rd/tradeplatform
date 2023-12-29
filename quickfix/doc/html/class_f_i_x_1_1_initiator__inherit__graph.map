@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_socket_initiator.html 7,168 124,192
+rect $class_f_i_x_1_1_threaded_socket_initiator.html 148,168 318,192
+rect $class_f_i_x_1_1_log.html 123,18 176,42

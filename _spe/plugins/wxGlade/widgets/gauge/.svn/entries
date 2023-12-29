@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/widgets/gauge"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="162"
+   name="gauge.py"
+   text-time="2007-04-11T23:40:03.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="75c46bf7321788d6f7c40e3ef279c381"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:03.000000Z"/>
+<entry
+   committed-rev="152"
+   name="lisp_codegen.py"
+   text-time="2007-04-11T23:40:03.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="e2ebfd7c61aa9d9d999bd6c09790ee6a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:03.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:03.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="735bad8240ac1d193b3c9893373017a9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:03.000000Z"/>
+<entry
+   committed-rev="53"
+   name="codegen.py"
+   text-time="2007-04-11T23:40:03.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="ea9a2d35a95f7f09a3511bd03f86e7e6"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:03.000000Z"/>
+<entry
+   committed-rev="53"
+   name="perl_codegen.py"
+   text-time="2007-04-11T23:40:03.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="ace9eb4e752458befd099f6559ccaf8f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:03.000000Z"/>
+</wc-entries>

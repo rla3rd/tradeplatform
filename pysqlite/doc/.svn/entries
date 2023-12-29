@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="386"
+   name=""
+   committed-date="2007-02-11T11:55:29.732342Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/doc"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="193"
+   name="install-source-win32.txt"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-12-29T01:02:52.207170Z"
+   checksum="9fb4cc743b2a0cb6af04499243e6b58b"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="243"
+   name="install-source.txt"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2006-03-30T22:12:37.214089Z"
+   checksum="cb9be5d8e730b368a68060f0c269720c"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   committed-rev="124"
+   name="silvercity.css"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-05-05T23:17:06.713833Z"
+   checksum="48629f202d1711f4f40c47f427dbe203"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:50.000000Z"/>
+<entry
+   name="code"
+   kind="dir"/>
+<entry
+   name="pysqlite-introduction-slides"
+   kind="dir"/>
+<entry
+   committed-rev="124"
+   name="default.css"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-05-05T23:17:06.713833Z"
+   checksum="68fe9aed5c42bb179d5ad36eaf2632db"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="124"
+   name="docutils.css"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2005-05-05T23:17:06.713833Z"
+   checksum="a827a2d7c9b327d28b0f3e2dc9750c70"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="281"
+   name="usage-guide.txt"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2006-06-13T17:23:36.539738Z"
+   checksum="fb136e5924de69557a570983d9552199"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+</wc-entries>

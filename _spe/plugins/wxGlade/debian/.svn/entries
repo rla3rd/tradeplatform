@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2007-02-24T22:42:36.861436Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/debian"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="53"
+   name="control"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="dabec2e3004161bd429d6b13d6fda64c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="dirs"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b3430214c4d6f7b4f4fabdd89c9baf16"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="152"
+   name="files"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="5716bebc7f73dfa2125787fd323ad213"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="compat"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="48a24b70a0b376535542b996af517398"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="152"
+   name="menu"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="9606736b7dde475b89db173e8c855fa5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="162"
+   name="changelog"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="b78950a09b8c694530981a241d2e5e6d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="manpage.xml"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="ce89c0b8a35c9ffef7731f1792257f25"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="copyright"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="945445b4f5e15e105a67fc6c8334f89a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="docs"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="8bce5d6650148fde7a29e4ca83d42de2"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="rules"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="3e1d4d22e2134547831fefc8a92517dd"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="wxglade.1"
+   text-time="2007-04-11T23:39:56.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="83911a5e209d4dce48eeb3c9bbb9c354"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+</wc-entries>

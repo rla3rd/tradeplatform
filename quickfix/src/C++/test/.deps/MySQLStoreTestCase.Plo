@@ -1,0 +1,4 @@
+MySQLStoreTestCase.lo .libs/MySQLStoreTestCase.o: MySQLStoreTestCase.cpp \
+  ../../../config.h
+
+../../../config.h:

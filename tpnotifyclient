@@ -1,0 +1,92 @@
+#!/usr/local/bin/python2.5
+import socket
+import psycopg2
+import datetime
+import string
+import sys
+from xml.parsers import expat
+import psyco
+psyco.profile()
+
+conn = psycopg2.connect( host='dbcrunch01', port=5432, database='tradeplatform', user='tradeplatform', password='tradeplatform' )
+cursor = conn.cursor()
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect( ("fe03", 3131) )
+
+#currentTime = int( datetime.datetime.now().strftime('%H%M%S') )
+
+sql = 'select max(txnid) from txns'
+cursor.execute(sql)
+results = cursor.fetchone()
+lastid = results[0]
+
+s.sendall('STREAM %s\n' % (lastid) )
+
+class Record:
+    def __init__(self, **kws):
+        self.__dict__.update(kws)
+
+class ParsedTransaction:
+
+    def __init__(self):
+        self.data = []
+
+    def s_el(self, tag, attrs):
+        self.data.append(Record(type="s_el", name=tag, attrs=attrs) )
+
+    def e_el(self, tag):
+        self.data.append(Record(type="e_el", name=tag ) )
+
+    def c_data(self, data):
+        self.data.append(Record(type="c_el", name=data ) )
+        
+class Transaction:
+    def __init__(self, parsedtxn):
+        self.parsedtxn = parsedtxn
+        self.field = {}
+        for i in range( len(self.parsedtxn.data) ):
+            if self.parsedtxn.data[i].type == 's_el' and self.parsedtxn.data[i+1].type == 'c_el':
+                self.field[self.parsedtxn.data[i].name] = self.parsedtxn.data[i+1].name
+            elif self.parsedtxn.data[i].type == 's_el':
+                self.field[self.parsedtxn.data[i].name] = None
+
+endbuffer = ''
+
+while True:
+    line = s.recv(8192)
+    line = endbuffer + line
+    line = line.replace('&', '&amp;')
+    lines = line.split('\n')
+    completelines = lines[:-1]
+    endbuffer = lines[-1]
+    for transaction in completelines:
+        parsed = ParsedTransaction()
+        p = expat.ParserCreate()
+        p.StartElementHandler = parsed.s_el
+        p.EndElementHandler = parsed.e_el
+        p.CharacterDataHandler = parsed.c_data
+        p.returns_unicode = 0
+        p.Parse(transaction)
+        txn = Transaction(parsed)
+#	print txn.field
+	if txn.field['mcap'] == None:
+		txn.field['mcap'] = 'Null'
+	if txn.field['score'] == None:
+		txn.field['score'] = 'Null'
+	if txn.field['rawscore'] == None:
+		txn.field['rawscore'] = 'Null'
+	insert = 'insert into txns '
+	values = 'values(\'%s\', %s, \'%s\', ' % ( txn.field['ticker'], txn.field['mcap'], txn.field['cusip'] )
+	values += '%s, \'%s\', \'%s\', ' % ( txn.field['txnid'], txn.field['txndate'], txn.field['filedate'] )
+	values += '\'%s\', \'%s\', \'%s\', ' % ( txn.field['filetime'], txn.field['recvtime'], txn.field['formtype'] )
+	values += '\'%s\', %s, \'%s\', ' % ( txn.field['code'], txn.field['insidercik'], txn.field['position'] )
+	values += '%s, %s, %s, ' % ( txn.field['shares'], txn.field['value'], txn.field['pps'] )
+	values += '%s, %s, \'%s\', ' % ( txn.field['ownedafter'], txn.field['pctchange'], txn.field['has10b5'] )
+	values += '\'%s\', %s, %s) ' % ( txn.field['isdirect'], txn.field['score'], txn.field['rawscore'] )
+	sql = insert + values
+#	print sql
+	cursor.execute(sql)
+	conn.commit()
+#	currentTime = int( datetime.datetime.now().strftime('%H%M%S') )
+sys.exit()

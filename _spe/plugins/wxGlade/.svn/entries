@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="171"
+   name=""
+   committed-date="2007-03-01T15:16:58.225355Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="162"
+   name="edit_widget.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="60cbe4a349a440b8ea7842b9c8502e96"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="162"
+   name="xml_parse.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="bfde82f57c0cbdacf1a39c5e7fc35aad"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   name="debian"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="misc.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="454805e00d99a78d44f1b756cb92b59a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="162"
+   name="wxglade.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="18e3f68a3566fb459215defbe4634f68"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:56.000000Z"/>
+<entry
+   committed-rev="53"
+   name="TODO.txt"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="ef735412dd505827376aed7352bc89a5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:57.000000Z"/>
+<entry
+   name="edit_sizers"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="wxglade.spec"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="0820ccaf55c1abc34c0a42823ebad997"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:57.000000Z"/>
+<entry
+   committed-rev="53"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="1588460eae949b00a937db0bcfdb55dc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="162"
+   name="edit_windows.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="c0ca5b5290c53d21ae484d68a14088dc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="162"
+   name="configUI.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="073421d2ab229854e1f7cfc04234291f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="53"
+   name="xrc2wxg.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="11a8593a31b040515053f9b6b10befb7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="162"
+   name="config.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="f802f7072e50ef580600144db02d2393"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   name="locale"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="layout_option_property.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="dd2c85097d7283f55db9e870bfd4b713"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="162"
+   name="license.txt"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="cea092c002ddadd14bd8b4de5dd8e9da"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="163"
+   name="template.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="d1ada6f765a0e40f586a700382191503"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+<entry
+   committed-rev="162"
+   name="zmain.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="0d119c4fccc5919e4a4b4794640beb51"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="163"
+   name="epydoc.conf"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="f8e1b1fda0d997dc77e865851e0cdc42"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="53"
+   name="wxglade.pyw"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="6265afa2847e5aebff012b08a6cd28ed"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="162"
+   name="kdefiledialog.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="28806bb39da549d2558a3a5027c0f247"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="171"
+   name="main.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-03-01T15:16:58.225355Z"
+   checksum="b0d2f00d7ea79dba0ca2c6d35ec77942"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   committed-rev="152"
+   name="Makefile"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="beb0dcd041b2fb17157a401c1ca3ff1a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:59.000000Z"/>
+<entry
+   name="po"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="common.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="716ca8651f364b44d4f748ccede07127"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="162"
+   name="color_dialog.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="66428898d8118fd5a3fd9a1ab3fcb425"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="162"
+   name="tree.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="dc55a89afdc2c300847584fd4a2a1095"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="152"
+   name="CHANGES.txt"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="1ae7e519ab2d62a7ddbbc5a70b4d5a44"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="162"
+   name="clipboard.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="203ce13a2e72ba28cb7938e1f66a9fa7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   committed-rev="162"
+   name="widget_properties.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="721513f206d5e60055d714ce03d51f71"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:00.000000Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="application.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="0dc02432b246f05b812eaafb5f4451a1"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:01.000000Z"/>
+<entry
+   committed-rev="152"
+   name="wxglade"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="c9b1e044cec0222da19ce60267770cff"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:01.000000Z"/>
+<entry
+   committed-rev="162"
+   name="events_mixin.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="779c220739a05807c911d888d62d9f42"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:01.000000Z"/>
+<entry
+   committed-rev="162"
+   name="about.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="cce337c17f0142ffa211a146c9250fcf"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:01.000000Z"/>
+<entry
+   name="codegen"
+   kind="dir"/>
+<entry
+   name="widgets"
+   kind="dir"/>
+<entry
+   name="icons"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="README.txt"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="15409e102ab211114064ad65f38e7ab6"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="162"
+   name="credits.txt"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="f69d491bdee76f7cad21e91ff7f163be"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="162"
+   name="font_dialog.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2007-02-24T22:42:36.861436Z"
+   checksum="e585af9966dd3f99593d815b3e583ef9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+<entry
+   committed-rev="53"
+   name="zwxglade.py"
+   text-time="2007-04-11T23:40:14.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="4bfdb1978e4caf7416a31977e0710bac"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+</wc-entries>

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="206"
+   name=""
+   committed-date="2007-03-13T23:16:40.704757Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/XRCed/src-images"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="206"
+   name="ToolSpinCtrl.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="503cec50b126d9ba311c2c1b5b9fd478"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolSplitterWindow.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d329c2b9402bc02bc512df5d7e399309"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolStaticLine.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="dc19f01de304eb1c5b571998a7fb7a41"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolGridSizer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="b0fb69833ec6e5aece0d3b88ce9835d0"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolBitmapButton.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="9a51830f701f85c7935a121c3130a057"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolTextCtrl.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="2939ac939fdcffe6705d7f6ba67de024"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreePanel.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="23112e13254b5f9bf0d5cae0017137ab"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSeparator.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="bc23ac4c7cfe5dcca97612fa211eb60f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolScrollBar.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="1b870046bf679f7cbb4624c92c05ab65"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSizerH.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e9c38c56164a5e01f2e61eb41de8b966"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeMenu.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="513d400b51a3846f5338d99e33c40a39"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolChoice.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="de94f6d25a56cb4c4bd3d6a985ca68bd"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolToolBar.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="b3619f9d9033a5d61714d5c4734ad338"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSizerV.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="75cc510049a2fed4284a8a9b5d9074eb"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMenu.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="513d400b51a3846f5338d99e33c40a39"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeRoot.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="5de5c6c0869a3755d265d083e3f8cd1d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeMenuItem.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e6c7e3de9bb14f0b25a9fad8c53f43c9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolSpinButton.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="9f8131606388cc2af6e2f80321603c65"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeDefault.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d2eb80322886e79fae4350eb1d5c5479"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeStaticBoxSizerH.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="154edc733b9bd3ca5203ef1c632c0c4f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolCheckList.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="4bf1a32ef89c313e789bf1b432fd5f88"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="Locate.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="6bef80e04c4630b12612bfe81b655135"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeMenuBar.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="aabe1fa77fcc2b03a8b9d0220dc7154a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeFrame.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="70fed2ab29392e741317bf59931106a7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolStaticBoxSizer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="154edc733b9bd3ca5203ef1c632c0c4f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolSpacer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="afa0e0e8a293db6122dba687d9a91e7e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeDialog.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="175098c1eceae8d5b071d4873beb80f9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="Test.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f207e96838c39a02873ac7eedfbff645"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMoveLeft.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="6dc50e62c7bd6e5b7c4386573970dc46"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="LocateArmed.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d4a255d4354b4606d967709e0994196a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMenuItem.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e10fd21433d8465195ea060a447d3326"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolRoot.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="5de5c6c0869a3755d265d083e3f8cd1d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolListBox.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="c6f27eb8294fa38216ca416b6ccd4798"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeStaticBoxSizerV.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="bdda2db505483c6f26266ac3b7c28646"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolRadioButton.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="aba6e0e92ba4959267f0e4cf6299aacd"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSizerGridBag.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f43d6ed7e5ed1ebab3b7d4853f30c13f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolDialog.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="175098c1eceae8d5b071d4873beb80f9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolUnknown.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="fd5f03288ff9745f7ef0d075b55dd50b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="Refresh.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="568a50326572bf8af9d62e5b8ebd6b74"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolStaticBox.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="5ac4aae8766c49f1cf7b72caef5e3fa8"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolRadioBox.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="9e19c7f97f8e7df917872d857e57ff04"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolComboBox.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="c8426267713e4512aab651807ae849c4"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMoveUp.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="62831e21f0bc1bb819b30509c4bbd17b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolButton.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="8c737811445e361143b9a1600fc0411c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolNotebook.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="df55304c6bce19302e8a70d6a915da79"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolFlexGridSizer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f57a9b727c2e8288ccaf66e190f4ed00"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeToolBar.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="3091b8181d4e6cbc59cc28de0e7cb37b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolTreeCtrl.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="a6c6d9caf4ca23164a80753adbc325ef"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolGauge.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="19f31b5e7c5da39202892cece7d13ea9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="AutoRefresh.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="c4dafcee1535882c8e1d26529affcb78"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolStaticText.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="ca01e881e7f809d121f299926d3becfe"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMoveDown.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="2c338276bef6bab57d6fb40a956dc101"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeTool.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="65dfb2dfe3c7c7c975961b0d01d7d75a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolPanel.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="23112e13254b5f9bf0d5cae0017137ab"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolListCtrl.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="3f7c1ce594a9f6634a296835b4b4d26a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolSeparator.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="84049a2650190d77ed484734c4fe8326"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSizerFlexGrid.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="f57a9b727c2e8288ccaf66e190f4ed00"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMoveRight.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="b761ed8294127bc607d638fd8f9c888b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolBoxSizer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e9c38c56164a5e01f2e61eb41de8b966"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolGridBagSizer.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="e9c9fe5bf3b9acb73f3621c3680e335d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolTool.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="b206142bf0d3eacd1ff8c290dee2b524"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolSlider.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="5d19cd08d6506db0afcebbeae2ebff69"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeSizerGrid.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="b0fb69833ec6e5aece0d3b88ce9835d0"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="TreeComment.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="58adc0d567fc7aa110817fb9771b003d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolStaticBitmap.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="5b4af19c2ac19596eb60a896c1e20600"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:53.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolDefault.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="d2eb80322886e79fae4350eb1d5c5479"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolCheckBox.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="7ae72a3cdefb48ff3d1824607a04d730"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolMenuBar.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="aabe1fa77fcc2b03a8b9d0220dc7154a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="Icon.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="1a0c8ffba21ec1a464b4ccb3c48953e5"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+<entry
+   committed-rev="206"
+   name="ToolFrame.png"
+   text-time="2007-04-11T23:39:54.000000Z"
+   committed-date="2007-03-13T23:16:40.704757Z"
+   checksum="70fed2ab29392e741317bf59931106a7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:54.000000Z"/>
+</wc-entries>

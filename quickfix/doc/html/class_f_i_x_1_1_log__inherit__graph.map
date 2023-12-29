@@ -1,0 +1,10 @@
+base referer
+rect $class_f_i_x_1_1_acceptor.html 198,93 284,117
+rect $class_f_i_x_1_1_file_log.html 308,93 382,117
+rect $class_f_i_x_1_1_initiator.html 406,93 484,117
+rect $class_f_i_x_1_1_screen_log.html 508,93 604,117
+rect $class_f_i_x_1_1_session_state.html 628,93 740,117
+rect $class_f_i_x_1_1_socket_acceptor.html 6,168 134,192
+rect $class_f_i_x_1_1_threaded_socket_acceptor.html 158,168 340,192
+rect $class_f_i_x_1_1_socket_initiator.html 378,168 496,192
+rect $class_f_i_x_1_1_threaded_socket_initiator.html 520,168 690,192

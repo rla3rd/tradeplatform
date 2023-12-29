@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_responder.html 18,31 114,54
+rect $class_f_i_x_1_1_socket_connection.html 191,7 330,31
+rect $class_f_i_x_1_1_threaded_socket_connection.html 165,54 357,78

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="163"
+   name=""
+   committed-date="2007-02-28T11:40:04.283781Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/locale/it/LC_MESSAGES"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="163"
+   name="wxglade.mo"
+   text-time="2007-04-11T23:39:58.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="84846a32c1c3091b8853bd030a17cfb3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:58.000000Z"/>
+</wc-entries>

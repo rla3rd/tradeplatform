@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBRediClasses", "VBRediClasses.vbproj", "{CEEC51AC-DA48-4BB7-82C9-41D73D457F17}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CEEC51AC-DA48-4BB7-82C9-41D73D457F17}.Debug.ActiveCfg = Debug|.NET
+		{CEEC51AC-DA48-4BB7-82C9-41D73D457F17}.Debug.Build.0 = Debug|.NET
+		{CEEC51AC-DA48-4BB7-82C9-41D73D457F17}.Release.ActiveCfg = Release|.NET
+		{CEEC51AC-DA48-4BB7-82C9-41D73D457F17}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

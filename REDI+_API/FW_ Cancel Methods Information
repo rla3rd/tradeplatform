@@ -1,0 +1,299 @@
+Return-Path: <Paul.Anderson@gs.com>
+X-Original-To: simon@findprofit.com
+Delivered-To: simon@findprofit.com
+Received: from mxod03.gs.com (mxod03.gs.com [206.230.49.186]) by
+	findprofit.com (Postfix) with ESMTP id 8153811C3FBC for
+	<simon@findprofit.com>; Mon, 31 Jul 2006 11:53:03 -0400 (EDT)
+Received: from unknown (HELO insvs8501.inz.gs.com) ([204.4.188.78]) by
+	mxod03.gs.com with ESMTP; 31 Jul 2006 11:53:03 -0400
+Received: from gsmbnop09es.firmwide.corp.gs.com
+	(gsmbnop09es.firmwide.corp.gs.com [154.4.173.171]) by insvs8501.inz.gs.com
+	with ESMTP for simon@findprofit.com; Mon, 31 Jul 2006 11:53:00 -0400
+Content-class: urn:content-classes:message
+Subject: FW: Cancel Methods Information
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C6B4B9.6615BAAB"
+X-MimeOLE: Produced By Microsoft Exchange V6.5.7226.0
+Date: Mon, 31 Jul 2006 11:53:00 -0400
+Message-Id: <4723110426F4984498CCA8EC9648DF3B014C593C@gsmbnop09es.firmwide.corp.gs.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Cancel Methods Information
+Thread-Index: AcOi354d1D5IMKHvT96YGH93oces4YYjsXUA
+From: "Anderson, Paul" <Paul.Anderson@gs.com>
+To: "Simon Feely" <simon@findprofit.com>
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C6B4B9.6615BAAB
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+________________________________________
+Paul Anderson
+Goldman Sachs Execution & Clearing, L.P.
+Direct: 312-362-2204
+Support: 312-362-FIXX (3499)
+E-mail: Paul.Anderson@GS.com
+________________________________________
+(c) 2005, The Goldman Sachs Group, Inc. All rights reserved.=20
+See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+conflicts of interest and other terms and conditions relating to this
+e-mail and your reliance on information contained in it. This message
+may contain confidential or privileged information. If you are not the
+intended recipient, please advise us immediately and delete this
+message. See http://www.gs.com/disclaimer/email/ for further information
+on confidentiality and the risks of non-secure electronic communication.
+If you cannot access these links, please notify us by reply message and
+we will send the contents to you.
+
+
+> ______________________________________________=20
+> From: 	Anderson, Paul =20
+> Sent:	Monday, July 31, 2006 10:41 AM
+> To:	'Bill Martin'; 'Simon Feely'
+> Cc:	Ferrara, Michael A
+> Subject:	Cancel Methods Information
+>=20
+> "PLEASE NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND
+> INTERNAL RECIPIENTS."
+> As far as the RediPlus APIs, the following are the only cancel methods
+> available in the CacheControl object. You can see what methods are
+> available on your particular version of RediPlus by looking into the
+> Redi libraries using the VBA object browser.=20
+> CANCEL:=20
+> Original cancel method. Requires the usage of the "cache row number"
+> of the order. The cache row number can change with and without notice
+> through cache events throughout the orders life.=20
+> Function Cancel(vaRow, vaError)
+> Member of RediLib.CacheControl
+> CANCELBYBRANCHSEQUENCE:=20
+> Newer cancel method. Requires the Branch-Sequence id of the order.
+> Causes an internal CacheControl object to be initiated setting a
+> filter to the Branch-Sequence value. Several clients have observed
+> delays when using this method towards the end of the day when the
+> message table is large.=20
+> Function CancelByBranchSequence(vaBrSeq, vaError)
+> Member of RediLib.CacheControl
+> CANCELBYKEY:=20
+> Newest cancel method. Requires the User id and the Order Reference
+> Key(OrderRefKey) of the order. This method uses a direct reference to
+> the order to perform the cancel. It removes the overhead issue
+> associated with the CancelByBranchSequence method. It also removes the
+> changing value issue of the row number used in the Cancel method.=20
+> Function CancelByKey(vaUser, vaKey, vaError)
+> Member of RediLib.CacheControl
+> I would suggest utilizing the CancelByKey method if it is available
+> for implementing cancellation logic in your application.
+>=20
+>=20
+> ________________________________________
+> Paul Anderson
+> Goldman Sachs Execution & Clearing, L.P.
+> Direct: 312-362-2204
+> Support: 312-362-FIXX (3499)
+> E-mail: Paul.Anderson@GS.com
+> ________________________________________
+> (c) 2005, The Goldman Sachs Group, Inc. All rights reserved.=20
+> See http://www.gs.com/disclaimer/gsec/ for important risk disclosure,
+> conflicts of interest and other terms and conditions relating to this
+> e-mail and your reliance on information contained in it. This message
+> may contain confidential or privileged information. If you are not the
+> intended recipient, please advise us immediately and delete this
+> message. See http://www.gs.com/disclaimer/email/ for further
+> information on confidentiality and the risks of non-secure electronic
+> communication. If you cannot access these links, please notify us by
+> reply message and we will send the contents to you.
+
+------_=_NextPart_001_01C6B4B9.6615BAAB
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+6.5.7233.69">
+<TITLE>FW: Cancel Methods Information</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/rtf format -->
+<BR>
+<BR>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Times New Roman">&copy; =
+2005, The Goldman Sachs Group, Inc. All rights reserved.</FONT><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> </FONT></I>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman">See =
+</FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See </FONT></I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+<BR>
+<UL>
+<P><FONT SIZE=3D1 =
+FACE=3D"Tahoma">______________________________________________ </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">From: &nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Anderson, Paul&nbsp; </FONT>
+
+<BR><B><FONT SIZE=3D1 FACE=3D"Tahoma">Sent:&nbsp;&nbsp;</FONT></B> <FONT =
+SIZE=3D1 FACE=3D"Tahoma">Monday, July 31, 2006 10:41 AM</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">To:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">'Bill Martin'; 'Simon Feely'</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Cc:&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B> <FONT SIZE=3D1 =
+FACE=3D"Tahoma">Ferrara, Michael A</FONT>
+
+<BR><B><FONT SIZE=3D1 =
+FACE=3D"Tahoma">Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>=
+</B> <FONT SIZE=3D1 FACE=3D"Tahoma">Cancel Methods Information</FONT>
+</P>
+
+<P><B><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">&quot;PLEASE =
+NOTE - THE BELOW EMAIL HAS BEEN DISTRIBUTED TO BOTH CLIENT AND INTERNAL =
+RECIPIENTS.&quot;</FONT></I></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">As far as the =
+RediPlus APIs, the following are the only cancel methods available in =
+the CacheControl object. You can see what methods are available on your =
+particular version of RediPlus by looking into the Redi libraries using =
+the VBA object browser.</FONT><FONT FACE=3D"Times New Roman"> =
+</FONT></P>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">CANCEL:</FONT><FONT =
+FACE=3D"Times New Roman"> </FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Original cancel =
+method. Requires the usage of the &quot;cache row number&quot; of the =
+order. The cache row number can change with and without notice through =
+cache events throughout the orders life.</FONT><FONT FACE=3D"Times New =
+Roman"> </FONT></P>
+
+<P><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">Function =
+Cancel(vaRow, vaError)<BR>
+Member of RediLib.CacheControl</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">CANCELBYBRANCHSEQUENCE:</FONT><FONT FACE=3D"Times New =
+Roman"> </FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Newer cancel method. =
+Requires the Branch-Sequence id of the order. Causes an internal =
+CacheControl object to be initiated setting a filter to the =
+Branch-Sequence value. Several clients have observed delays when using =
+this method towards the end of the day when the message table is =
+large.</FONT><FONT FACE=3D"Times New Roman"> </FONT></P>
+
+<P><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">Function =
+CancelByBranchSequence(vaBrSeq, vaError)<BR>
+Member of RediLib.CacheControl</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">CANCELBYKEY:</FONT><FONT FACE=3D"Times New Roman"> =
+</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Newest cancel =
+method. Requires the User id and the Order Reference Key(OrderRefKey) of =
+the order. This method uses a direct reference to the order to perform =
+the cancel. It removes the overhead issue associated with the =
+CancelByBranchSequence method. It also removes the changing value issue =
+of the row number used in the Cancel method.</FONT><FONT FACE=3D"Times =
+New Roman"> </FONT></P>
+
+<P><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Arial">Function =
+CancelByKey(vaUser, vaKey, vaError)<BR>
+Member of RediLib.CacheControl</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">I would suggest =
+utilizing the CancelByKey method if it is available for implementing =
+cancellation logic in your application.</FONT></P>
+<BR>
+
+<P><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Arial">Paul Anderson</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Goldman Sachs =
+Execution &amp; Clearing, L.P.</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Direct: =
+312-362-2204</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">Support: =
+312-362-FIXX (3499)</FONT>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D1 FACE=3D"Arial">E-mail: =
+Paul.Anderson@GS.com</FONT><B></B>
+
+<BR><FONT COLOR=3D"#0000FF" SIZE=3D2 =
+FACE=3D"Arial">________________________________________</FONT>
+
+<BR><I><FONT COLOR=3D"#000000" SIZE=3D2 FACE=3D"Times New Roman">&copy; =
+2005, The Goldman Sachs Group, Inc. All rights reserved.</FONT><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> </FONT></I>
+
+<BR><I><FONT COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New =
+Roman">See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/gsec/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/gsec/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for important risk =
+disclosure, conflicts of interest and other terms and conditions =
+relating to this e-mail and your reliance on information contained in =
+it. This message may contain confidential or privileged information. If =
+you are not the intended recipient, please advise us immediately and =
+delete this message. See</FONT> </I><A =
+HREF=3D"http://www.gs.com/disclaimer/email/"><I><U></U><U><FONT =
+COLOR=3D"#0000FF" SIZE=3D2 FACE=3D"Times New =
+Roman">http://www.gs.com/disclaimer/email/</FONT></U></I></A><I><FONT =
+COLOR=3D"#808080" SIZE=3D2 FACE=3D"Times New Roman"> for further =
+information on confidentiality and the risks of non-secure electronic =
+communication. If you cannot access these links, please notify us by =
+reply message and we will send the contents to you.</FONT></I></P>
+</UL>
+</BODY>
+</HTML>
+------_=_NextPart_001_01C6B4B9.6615BAAB--

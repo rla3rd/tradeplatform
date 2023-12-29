@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="298"
+   name=""
+   committed-date="2006-10-15T11:14:13.077881Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/misc"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="33"
+   name="lru.py"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2004-11-01T18:24:16.111638Z"
+   checksum="4d73e038097dd3716ca229798060a50e"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+<entry
+   committed-rev="298"
+   name="Makefile"
+   text-time="2007-04-18T23:35:51.000000Z"
+   committed-date="2006-10-15T11:14:13.077881Z"
+   checksum="2ab52423c753ba4c1300d36c1ee2eace"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:51.000000Z"/>
+</wc-entries>

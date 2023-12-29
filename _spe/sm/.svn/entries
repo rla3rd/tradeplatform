@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="236"
+   name=""
+   committed-date="2007-03-22T16:29:02.494549Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/sm"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="220"
+   name="osx.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-15T18:22:15.841678Z"
+   checksum="38f4c4d14c00424c33e177575380e0fa"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="46"
+   name="spy.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2005-10-30T01:05:26.075023Z"
+   checksum="b3fba5230a3e5fae5db8a4a1290fc08b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="229"
+   name="uml.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-17T22:08:43.868788Z"
+   checksum="be5f5e487188de05f2cecdb6d661e69a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="__init__.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2005-08-04T16:22:07.666021Z"
+   checksum="81b3fa09f23ed659954d45bd0a952f32"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="65"
+   name="python.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2005-11-03T00:06:11.871636Z"
+   checksum="444d4f3f925734cdf618d0354c4d3416"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="152"
+   name="www.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="601679e1aa217647a90a5e2dcf45b2d7"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="images.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2005-08-04T16:22:07.666021Z"
+   checksum="cf6343757b00d340fea8ca1d8452e2c3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   committed-rev="191"
+   name="scriptutils.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2007-03-07T18:06:06.615951Z"
+   checksum="c031febe1fa29c2aceaa5a81de2b7098"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:42.000000Z"/>
+<entry
+   name="wxp"
+   kind="dir"/>
+<entry
+   committed-rev="152"
+   name="thread.py"
+   text-time="2007-04-11T23:39:43.000000Z"
+   committed-date="2006-10-19T21:17:20.209609Z"
+   checksum="a09f84275002d742d2daffe680b3ef02"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:39:43.000000Z"/>
+</wc-entries>

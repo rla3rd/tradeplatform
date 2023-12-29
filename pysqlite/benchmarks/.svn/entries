@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="183"
+   name=""
+   committed-date="2005-12-09T00:14:33.665389Z"
+   url="http://initd.org/svn/pysqlite/pysqlite/trunk/benchmarks"
+   last-author="gh"
+   kind="dir"
+   uuid="f581f19b-c9e6-0310-bd56-e372eea7194d"
+   revision="396"/>
+<entry
+   committed-rev="183"
+   name="fetch.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2005-12-09T00:14:33.665389Z"
+   checksum="865bdbfa78cf0ee4517a138e1383911b"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+<entry
+   committed-rev="179"
+   name="insert.py"
+   text-time="2007-04-18T23:35:52.000000Z"
+   committed-date="2005-11-22T22:02:05.515787Z"
+   checksum="a4b8c685efaf8dabe6fbbca419ed63f6"
+   last-author="gh"
+   kind="file"
+   prop-time="2007-04-18T23:35:52.000000Z"/>
+</wc-entries>

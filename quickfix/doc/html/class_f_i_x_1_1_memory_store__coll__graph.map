@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_message_store.html 6,96 124,120
+rect $class_f_i_x_1_1_utc_time_stamp.html 148,96 268,120
+rect $struct_f_i_x_1_1_date_time.html 164,19 252,43

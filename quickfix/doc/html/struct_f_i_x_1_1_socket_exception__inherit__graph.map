@@ -1,0 +1,5 @@
+base referer
+rect $struct_f_i_x_1_1_socket_close_failed.html 6,168 148,192
+rect $struct_f_i_x_1_1_socket_recv_failed.html 172,168 310,192
+rect $struct_f_i_x_1_1_socket_send_failed.html 334,168 473,192
+rect $struct_f_i_x_1_1_exception.html 196,18 286,42

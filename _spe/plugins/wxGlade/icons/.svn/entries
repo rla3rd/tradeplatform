@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="163"
+   name=""
+   committed-date="2007-02-28T11:40:04.283781Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/wxGlade/icons"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="53"
+   name="toggle_button.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="a995eb9730daaae3856c4de816e5b5da"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="spinbtn.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="9ab3f1c659a0509c9c9c3bb4f74d4f14"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   committed-rev="53"
+   name="notebook.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="265288949b4a72af770108507c6452a1"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:11.000000Z"/>
+<entry
+   name="gtk"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="list_box.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="73d49b97e4e0c4b39e77100a9c9d10fb"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="tree_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b7690a7fbc9d34c57ef1b55d9c39fe0e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="checkbox.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="6fc9ebb2434efd7db635c13080d83846"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="gauge.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="c4d012bbe6d5c172c5436f90c3c7e519"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="radio_button.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="c1b3bf27b351fe64a8eea3eb3313df81"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="menubar.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="7364273eed641c84ac29aaf6b5dd7aab"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="choice.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="772eccd25ccba91042901eac7164eac3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="static_text.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="5862314fc72199ce241525ee032789b0"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="splitter_window.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="43f0d39fe1160c672660bc4d39b63483"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="163"
+   name="datepicker_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="d86989001b33e72d715401c59c652fd3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="list_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="03cd7b65d72ee5d5f2a75ac527bcc191"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="panel.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b7f9ef1efcd46f84bd0b918c1aae163f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="grid_sizer.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="117146adf04132daadc7aad2e8618b1c"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="wxglade_small.png"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="4e3e685e0675e01a68fb69989c3fbb3f"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="application.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="9e34a0fab85c33e4fbd7f48e69157a01"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:12.000000Z"/>
+<entry
+   committed-rev="53"
+   name="closed_folder.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="25e185e2b354031ec1e16cbf1b5a320e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="combo_box.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="3b386dd95fd03afc1b929dc7e78cef2a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="bitmap_button.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b17b9cc49181781b25dcde283a5e2786"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="text_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="0eebc5b1702ab47e532ab0e224924fff"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="statusbar.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="9bc607552f497efe99dcd7e55473f85d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="wxg_file.ico"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="bb08a2ee900f7c0dc3ff13b437fd1a31"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="spacer.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="6a46efec9359c5dbbe63ec535f28c7cc"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="slider.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="29c69652b856ac4427377a0eeafbd2e2"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="static_bitmap.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="cc47277408fc7fc7e21bda0f6815349b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="grid.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="83f9295ce8cea3b186deea4233cc7e64"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="icon.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="eb28f693d363d8bbbfe7af74e5d66a7d"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="frame.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="b76392b64b174e46f75f23f666814770"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="sizer.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="697821130f73492aad14d4c5e3f9952e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="spin_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="a91d41dcbee9a2f42477409b30dadfc9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="163"
+   name="calendar_ctrl.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2007-02-28T11:40:04.283781Z"
+   checksum="9a22bd168afc256bcd8c5128b7f9fa95"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="static_line.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="1268c1477d00b4a743236088be390e23"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="icon16.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="2faebcb97c6a2db6d4f1516a849f50fe"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="dialog.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="c07c31aa31e390742efc9710f2c0fc8e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="wxglade.ico"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="7bdc046f48dc944c339b8be8f1f4a4a3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="toolbar.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="78e935a6296e2242df6931a8ca04bfc9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   name="msw"
+   kind="dir"/>
+<entry
+   committed-rev="53"
+   name="radio_box.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="5814a64f532ec18334ab9dcbc96fce21"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="custom.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="c7aa3641176955ed5fdce1eb150baeda"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="button.xpm"
+   text-time="2007-04-11T23:40:13.000000Z"
+   committed-date="2005-10-30T02:30:14.182667Z"
+   checksum="165e9aee49818f454004f279de05ed8a"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:13.000000Z"/>
+</wc-entries>

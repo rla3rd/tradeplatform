@@ -1,0 +1,29 @@
+NH|Not held|1
+W|Work|2
+GO|Go along|3
+OTD|Over the day|4
+HLD|Held|5
+PDI|Participate don't initiate|6
+STS|Strict scale|7
+TTS|Try to scale|8
+SOB|Stay on bidside|9
+SOO|Stay on offerside|0
+NC|No cross (cross is forbidden)|A
+OKC|OK to cross|B
+CF|Call first|C
+VOL|Percent of volume|D
+DNI|Do not increase|E
+DNR|Do not reduce|F
+AON|All or none|G
+IO|Institutions only||
+LTP|Last peg (last sale)|L
+MDP|Mid-price peg (midprice of inside quote)|M
+NN|Non-negotiable|N
+OPP|Opening peg|O 
+MKP|Market peg|P
+PRP|Primary peg (primary market - buy at bid/sell at offer)|R
+SPD|Suspend|s
+LPG|Fixed Peg to Local best bid or offer at time of order|T
+CUD|Customer Display Instruction (Rule11Ac1-1/4)|U
+NET|Netting (for Forex)|V
+VWP|Peg to VWAP|W 

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="215"
+   name=""
+   committed-date="2007-03-14T22:54:22.596162Z"
+   url="svn://svn.berlios.de/python/spe/trunk/_spe/plugins/pychecker"
+   last-author="stani"
+   kind="dir"
+   uuid="be77ae6e-66fb-0310-8b80-9b5aebdb08cc"
+   revision="236"/>
+<entry
+   committed-rev="215"
+   name="CodeChecks.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="a27794f9ddafded0ce951369578e30ae"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+<entry
+   committed-rev="215"
+   name="options.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="5dee3e4a31dcf3568d669c633dc6fdb4"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+<entry
+   committed-rev="215"
+   name="OptionTypes.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="7f27337cea55e1aacc624caf52a842c3"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+<entry
+   committed-rev="215"
+   name="__init__.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="e8b4cf23dd62ff29b4adeeb14be64150"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:14.000000Z"/>
+<entry
+   committed-rev="215"
+   name="utils.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="7e49ab290fd45f6256d87cc780b3bafb"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="checker.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="098b7f4328934e41c4c8de37f4d51b69"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="Config.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="63031b84a20b57f7c65c4ef6d221e46b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="Stack.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="2f49424b1213990def8b4b1433179c8e"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="Warning.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="deb30aa36a819988c1557763cf9f4e73"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="warn.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="9fe8e20739b85cfeb20fa7c1ca10eb74"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="msgs.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="218977835e7f3ec48f8eab18ea9d1c8b"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="OP.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="a9b4c9cd8e89a508fe8d750436e97095"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="python.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="bf59564975415eb8434b652f961a9945"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="printer.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="bb27370d14385d596080085b37b2b630"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="function.py"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="4368ae576e124e4581cf691de3bf3282"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+<entry
+   committed-rev="215"
+   name="Options.ad"
+   text-time="2007-04-11T23:40:15.000000Z"
+   committed-date="2007-03-14T22:54:22.596162Z"
+   checksum="c3f145191c05054c626a0f9dceb866b9"
+   last-author="stani"
+   kind="file"
+   prop-time="2007-04-11T23:40:15.000000Z"/>
+</wc-entries>

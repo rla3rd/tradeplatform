@@ -1,0 +1,4 @@
+base referer
+rect $class_f_i_x_1_1_message_store_factory.html 17,31 180,54
+rect $class_f_i_x_1_1_file_store_factory.html 241,7 372,31
+rect $class_f_i_x_1_1_memory_store_factory.html 229,54 384,78
